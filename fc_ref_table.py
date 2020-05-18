@@ -3,64 +3,6 @@ import requests
 import numpy as np
 from lxml import etree, html
 
-def effect_on_asset(row):
-    split_str = row['description'][-1]
-
-    for word in split_str.split(' '):
-        if '/bullish' in word:
-            if 'positive' in word:
-                return row['currency']+' Positive'
-            else:
-                return row['currency']+' Negative'
-
-def is_high_positive(row):
-    split_str = row['description'][-1]
-
-    for word in split_str.split(' '):
-        if '/bullish' in word:
-            if 'positive' in word:
-                return True
-            else:
-                return False
-
-def get_relation(row):
-    return row['currency']+' - Strong'
-
-def get_friendly(row):
-    friendly_list=[]
-    capitals=''
-    parse_str=row['description'][0].replace('The ','').replace('\r','').replace('\n','')
-
-    if parse_str.count(')') > 1:
-        parse_str = parse_str[(parse_str.find(')')+2):]
-    if parse_str.count(',') > 1:
-        parse_str = parse_str[:(parse_str.find(',')+1)]
-    if parse_str.count('.') > 1:
-        parse_str = parse_str[:(parse_str.find('.')+1)]
-
-    for word in parse_str.split(' '):
-        if word.isupper() and len(word) >= 3 and word.find('.') == -1 and word not in friendly_list:
-            friendly_list = friendly_list + [parse_str[:(parse_str.find(word)+len(word))]]
-            friendly_list = friendly_list + [parse_str[:(parse_str.find(word)-1)]]
-            friendly_list = friendly_list + [word.replace('(','').replace(')','')]
-
-    friendly_list=list(dict.fromkeys(friendly_list))
-
-    for word in parse_str.split():
-        if word[0].isupper() and len(word) >= 3 and word.find('.') == -1:
-            capitals=capitals+' '+word
-
-    capitals=capitals[1:]
-
-    if capitals not in friendly_list and capitals.find(',') == -1:
-        friendly_list=[capitals]
-
-    if len(friendly_list) > 3:
-        friendly_list=friendly_list[3:]
-
-    print('{}'.format(row.time))
-    return friendly_list
-
 def get_dis(row):
     if (row['impact'] == 'Holiday'):
         return ''
@@ -136,8 +78,6 @@ def get_friendly_two(df):
 
         new_df = new_df.append(parsed_row, ignore_index=True)
         new_df = new_df.drop_duplicates(subset=['prefix'], keep='last')
-        #print(new_df)
-        new_df.to_csv('fuckIt.csv', index=False)
 
     print(new_df)
 
@@ -157,21 +97,14 @@ def get_title(row):
     info=''.join(info)
 
     info=info.replace('\r','').replace('\n','').replace('\t','')
-    print(info)
-    print('{}'.format(row.time))
     return info
 
 def get_url_parts(row):
-
-    if(row['impact']=='Holiday'):
-        return ''
-
     proper=row['event_name'].lower()
     event_id= str(int(row['event_type_id']))
 
     words = proper.split(' ')
     words_temp= proper.split(' ')
-
 
     for word in words_temp:
         if word.find('(') != -1:
@@ -196,47 +129,25 @@ def no_parantasis(row):
     words = ' '.join(words)
     return words
 
+def pre_processing(df):
+    months=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep','Dec'] # i don't need it
+
+    df= df[df.impact!='Holiday']
+    df= df.drop_duplicates(subset=['event_type_id'], keep='last')
+    df['event_name'] = df.apply(no_parantasis, axis='columns')
+    df['urls'] = df.apply(get_url_parts, axis='columns')
+    df['title'] = df.apply(get_title, axis='columns')
+    print('done pre_pocessing')
+    return df
+
 if __name__ == "__main__":
 
-    strx= "Core CPI (MoM) (Apr)"
-
     #df= investing_scraper.get_events_year_range(2019,2020)
-    #df= investing_scraper.tryhard()
-    #print(df.head())
-    #df= df.to_csv('yearsTest2.csv', index=False)
 
     loader_fc = pd.read_csv("yearsHighV.csv")
-    #loader_fc = pd.read_csv("yearsTest2.csv")
     print(loader_fc.size)
-    fc= loader_fc[loader_fc.impact!="Holiday"]
-    fc= fc.drop_duplicates(subset=['event_type_id'], keep='last')
+    fc= pre_processing(loader_fc)
     print(fc.size)
-
-    fc['event_name'] = fc.apply(no_parantasis, axis='columns')
-    #print(fc.size)
-    #fc.to_csv('tryingNoP.csv', index=False)
-    fc['urls'] = fc.apply(get_url_parts, axis='columns')
-    #print(fc.size)
-
-    #fc.to_csv('trying.csv', index=False)
-
-    # create the driver object.
-    #fc['description']= fc.apply(get_dis, axis='columns')
-    fc['title'] = fc.apply(get_title, axis='columns')
-    print(fc.size)
-    fc.to_csv('FullTitles.csv', index=False)
-    #fc= pd.read_csv('trying.csv')
-    #new_fc=get_friendly_two(fc)
-
-
-
-    #fc['relation_to_asset'] = fc.apply(get_relation, axis='columns')
-    #fc['is_high_positive'] = fc.apply(is_high_positive, axis='columns')
-    #fc['effect'] = fc.apply(effect_on_asset, axis='columns')
-    #fc['description']= fc.apply(getDescription, args=[driver], axis='columns')
-
-    #print(new_fc)
-    #new_fc.to_csv('tableTest.csv', index=False)
-    #fc.to_csv('trying.csv', index=False)
+    fc.to_csv('FullTitles-2.csv', index=False)
 
     print('done!!')
