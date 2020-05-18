@@ -205,8 +205,8 @@ if __name__ == "__main__":
     #print(df.head())
     #df= df.to_csv('yearsTest2.csv', index=False)
 
-    #loader_fc = pd.read_csv("yearsHighV.csv")
-    loader_fc = pd.read_csv("yearsTest2.csv")
+    loader_fc = pd.read_csv("yearsHighV.csv")
+    #loader_fc = pd.read_csv("yearsTest2.csv")
     print(loader_fc.size)
     fc= loader_fc[loader_fc.impact!="Holiday"]
     fc= fc.drop_duplicates(subset=['event_type_id'], keep='last')
