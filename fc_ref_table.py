@@ -20,38 +20,36 @@ def get_dis(row):
     print('{}'.format(row.time))
     return info
 
-def get_friendly_two(df):
-    prefix_bank=[]
+def get_friendly(df):
+    prefix_bank=pd.read_csv("known_prefixs.csv")
+    prefix_bank= prefix_bank['prefixes'].values.tolist()
+    #countires_list=pd.read_csv("countries.csv")
+    #countires_list=countires_list['countries'].values.tolist()
+
     parsed_data = []
-    #new_df = pd.DataFrame()
     new_df=pd.DataFrame(columns=['prefix', 'friendly_name', 'event_type_ids'])
-    #new_df=new_df.append(old_df, ignore_index=True)
 
     for index, row in df.iterrows():
         title = row['title']
         print(title)
         parsed_row = {}
 
-        if not title:
-            continue
-
         if '(' not in title:
-            pref=title.split(' ', 1)[1]
-            if title not in prefix_bank:
-                prefix_bank.append(title)
-                parsed_row['prefix'] = pref
-                parsed_row['event_type_ids'] = str(int(row['event_type_id']))
-                parsed_row['friendly_name'] = [pref]
-            else:
-                parsed_row = new_df.loc[new_df['prefix'] == pref].copy()
-                parsed_row['event_type_ids'] = str(int(row['event_type_id']))
-                lister = ''
-                for elem in parsed_row['event_type_ids'].values:
-                    lister = lister + elem + ' '
+            for word in prefix_bank:
+                if title.find(word) != -1:
+                    parsed_row = new_df.loc[new_df['prefix'] == word].copy()
+                    if parsed_row.empty:
+                        parsed_row = {}
+                        parsed_row['prefix'] = word
+                        parsed_row['event_type_ids'] = str(int(row['event_type_id']))
+                        parsed_row['friendly_name'] = [word]
+                    else:
+                        lister = ''
+                        for elem in parsed_row['event_type_ids'].values:
+                            lister = lister + elem + ' '
 
-                lister = lister + str(int(row['event_type_id'])) + ' '
-                parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
-                parsed_row['friendly_name'] = [pref]
+                        lister = lister + str(int(row['event_type_id'])) + ' '
+                        parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
         else:
             for word in title.split(' '):
                 if '(' in word:
@@ -97,11 +95,14 @@ def get_title(row):
     info=''.join(info)
 
     info=info.replace('\r','').replace('\n','').replace('\t','')
+    print('{}'.format(row['time']))
     return info
 
 def get_url_parts(row):
     proper=row['event_name'].lower()
     event_id= str(int(row['event_type_id']))
+
+    proper=proper.replace('/', ' ')
 
     words = proper.split(' ')
     words_temp= proper.split(' ')
@@ -144,10 +145,13 @@ if __name__ == "__main__":
 
     #df= investing_scraper.get_events_year_range(2019,2020)
 
-    loader_fc = pd.read_csv("yearsHighV.csv")
-    print(loader_fc.size)
-    fc= pre_processing(loader_fc)
+    #loader_fc = pd.read_csv("yearsHighV.csv")
+    #print(loader_fc.size)
+    #fc= pre_processing(loader_fc)
+    #fc.to_csv('FullTitles.csv', index=False)
+    fc=pd.read_csv("FullTitles.csv")
     print(fc.size)
-    fc.to_csv('FullTitles-2.csv', index=False)
+    fc=get_friendly(fc)
+    fc.to_csv('trying.csv', index=False)
 
     print('done!!')

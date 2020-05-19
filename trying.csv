@@ -1,0 +1,14 @@
+prefix,friendly_name,event_type_ids
+Brexit,['Brexit'],1842 1846  1815 
+Policy Report,['Policy Report'],1836 326 
+Policy Statement,['Policy Statement'],1669 1845 
+MPC,"['MPC', 'Bank of', 'Bank of (MPC)']",216 212 
+Press Conference,['Press Conference'],1688 1767  1791  370  396  1761 
+PPI,"['PPI', 'Producer Price Index', 'Producer Price Index (PPI)']",238
+Crude Oil,['Crude Oil'],75
+Speaks,['Speaks'],1876 1695  1921  565  1034  1694  1965  1738  1776  1033 
+CPI,"['CPI', 'Consumer Price Index', 'Consumer Price Index (CPI)']",72 73  56  67  57  68 
+PMI,"['PMI', 'Purchasing Managers Index', 'Purchasing Managers Index (PMI)']",176 44  185  594  753  204  173  136  1934  274 
+GDP,"['GDP', 'Gross Domestic Product', 'Gross Domestic Product (GDP)']",125 461  1792  728  121  1800  119  131  123  124  375 
+FOMC,"['FOMC', 'Federal Open Market Committee', 'Federal Open Market Committee (FOMC)']",108 398  1692  1061 
+,,

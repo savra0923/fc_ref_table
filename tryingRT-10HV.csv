@@ -1,0 +1,6 @@
+prefix,friendly_name,event_type_ids
+ADP Nonfarm Employment Change,['ADP Nonfarm Employment Change'],1
+Initial Jobless Claims,['Initial Jobless Claims'],294
+Unemployment Change,['Unemployment Change'],332
+PMI,"['PMI', 'Purchasing Managers Index', 'Purchasing Managers Index (PMI)']",753 136  204  44  173  274 
+CPI,"['CPI', 'Consumer Price Index', 'Consumer Price Index (CPI)']",68

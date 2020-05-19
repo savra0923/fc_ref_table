@@ -1,0 +1,16 @@
+pref=title.split(' ', 1)[1]
+            if title not in prefix_bank:
+                prefix_bank.append(title)
+                parsed_row['prefix'] = pref
+                parsed_row['event_type_ids'] = str(int(row['event_type_id']))
+                parsed_row['friendly_name'] = [pref]
+            else:
+                parsed_row = new_df.loc[new_df['prefix'] == pref].copy()
+                parsed_row['event_type_ids'] = str(int(row['event_type_id']))
+                lister = ''
+                for elem in parsed_row['event_type_ids'].values:
+                    lister = lister + elem + ' '
+
+                lister = lister + str(int(row['event_type_id'])) + ' '
+                parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
+                parsed_row['friendly_name'] = [pref]
