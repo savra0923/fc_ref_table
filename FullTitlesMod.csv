@@ -1,0 +1,456 @@
+event_id,event_type_id,event_name,time,country,currency,impact,actual,forecast,previous,urls,title
+380855,1732,BOJ Board Member Nakaso Speaks,31-01-19 04:05,Japan,JPY,Moderate Volatility Expected,,,,boj-board-member-nakaso-speaks-1732,Board Member Nakaso Speaks
+382763,1730,SNB Gov Board Member Zurbrugg Speaks,05-03-19 09:00,Switzerland,CHF,Moderate Volatility Expected,,,,snb-gov-board-member-zurbrugg-speaks-1730,Swiss National Bank Governor Board Member Zurbrugg Speaks
+378239,1819,NBP Inflation and GDP Projection,11-03-19 09:00,Poland,PLN,Moderate Volatility Expected,,,,nbp-inflation-and-gdp-projection-1819,Central Bank Inflation and GDP Projection
+384375,1850,UK Parliament Indicative Votes on Brexit,01-04-19 19:00,United Kingdom,GBP,Moderate Volatility Expected,,,,uk-parliament-indicative-votes-on-brexit-1850,Parliament Indicative Votes on Brexit
+386958,1706,ECB's Praet Speaks,22-05-19 09:30,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb's-praet-speaks-1706,European Central Bank Praet Speaks
+387174,1587,ECB's Nowotny Speaks,24-05-19 08:30,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb's-nowotny-speaks-1587,ECB's Nowotny Speaks
+387336,1840,European Parliament Elections,26-05-19 10:00,Euro Zone,EUR,Moderate Volatility Expected,,,,european-parliament-elections-1840,European Parliament Elections
+387946,1718,MPC Member Ramsden Speaks,05-06-19 07:45,United Kingdom,GBP,Moderate Volatility Expected,,,,mpc-member-ramsden-speaks-1718,Monetary Policy Committee (MPC) Member Ramsden Speaks
+388696,1728,BoC Gov Council Member Schembri Speaks,17-06-19 18:30,Canada,CAD,Moderate Volatility Expected,,,,boc-gov-council-member-schembri-speaks-1728,Governor Council Member Schembri Speaks
+390538,1895,Winner of Conservative Leadership Announced,23-07-19 10:45,United Kingdom,GBP,Moderate Volatility Expected,,,,winner-of-conservative-leadership-announced-1895,Winner of Conservative Leadership Announced
+390501,1756,Turkish Late Liquidity Window Rate,25-07-19 11:00,Turkey,TRY,Moderate Volatility Expected,19.75%,,24.00%,turkish-late-liquidity-window-rate-1756,Late Liquidity Window Rate
+390906,1750,French GDP,31-07-19 06:45,France,EUR,Moderate Volatility Expected,1.10%,1.30%,1.20%,french-gdp-1750,Gross Domestic Product (GDP) 
+391118,1674,IEA Monthly Report,09-08-19 08:00,United States,USD,Moderate Volatility Expected,,,,iea-monthly-report-1674,International Energy Agency (IEA) Monthly Oil Market Report
+391457,1798,CPIH,14-08-19 08:30,United Kingdom,GBP,Moderate Volatility Expected,2.00%,1.80%,1.90%,cpih-1798,Consumer Prices Index Including Owner Occupiers’ Housing Costs (CPIH) 
+391829,289,Adjusted Trade Balance,18-08-19 23:50,Japan,JPY,Moderate Volatility Expected,-0.13T,-0.15T,-0.03T,adjusted-trade-balance-289,Adjusted Trade Balance
+391866,1677,Jackson Hole Symposium,24-08-19 16:30,United States,USD,Moderate Volatility Expected,,,,jackson-hole-symposium-1677,Jackson Hole Symposium
+392348,1737,BoJ Board Member Suzuki Speaks,29-08-19 01:30,Japan,JPY,Moderate Volatility Expected,,,,boj-board-member-suzuki-speaks-1737,Board Member Suzuki Speaks
+392391,1771,PCE Deflator,30-08-19 12:30,United States,USD,Moderate Volatility Expected,0.20%,,0.10%,pce-deflator-1771,PCE Deflator
+392392,1772,PCE Deflator,30-08-19 12:30,United States,USD,Moderate Volatility Expected,1.40%,,1.30%,pce-deflator-1772,PCE Prices 
+392683,1751,Cap Goods Ship Non Defense Ex Air,05-09-19 14:00,United States,USD,Moderate Volatility Expected,-0.60%,,-0.70%,cap-goods-ship-non-defense-ex-air-1751,Capital Goods Ship Non Defense ex Air 
+393999,1962,UK Supreme Court Decision,24-09-19 09:30,United Kingdom,GBP,Moderate Volatility Expected,,,,uk-supreme-court-decision-1962,Supreme Court Decision
+382922,1832,SARB Monetary Policy Review,01-10-19 08:00,South Africa,ZAR,Moderate Volatility Expected,,,,sarb-monetary-policy-review-1832, Reserve Bank Monetary Policy Review 
+394266,1733,BOJ Board Member Funo Speaks,03-10-19 01:00,Japan,JPY,Moderate Volatility Expected,,,,boj-board-member-funo-speaks-1733,Board Member Funo Speaks
+378790,1824,BOK Financial Stability Board Meeting Minutes,11-10-19 01:00,South Korea,KRW,Moderate Volatility Expected,,,,bok-financial-stability-board-meeting-minutes-1824,Financial Stability Board Meeting Minutes
+395163,1770,BoE Deputy Governor Woods Speaks,15-10-19 08:30,United Kingdom,GBP,Moderate Volatility Expected,,,,boe-deputy-governor-woods-speaks-1770,Deputy Governor Woods Speaks
+395577,1964,Canadian Federal Election,21-10-19 00:00,Canada,CAD,Moderate Volatility Expected,,,,canadian-federal-election-1964,Canadian Federal Election
+395889,1703,ECB's Lautenschlaeger Speaks,30-10-19 17:30,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb's-lautenschlaeger-speaks-1703,European Central Bank Lautenschlaeger Speaks
+379532,1805,CBRT Inflation Report,31-10-19 07:30,Turkey,TRY,Moderate Volatility Expected,,,,cbrt-inflation-report-1805,Inflation Report
+395891,573,SNB Chairman Thomas Jordan speaks,31-10-19 15:30,Switzerland,CHF,Moderate Volatility Expected,,,,snb-chairman-thomas-jordan-speaks-573,speaks
+396709,1841,Spanish General Election,10-11-19 10:00,Spain,EUR,Moderate Volatility Expected,,,,spanish-general-election-1841,Spanish General Election
+396842,1966,BRICS Summit,14-11-19 00:00,Brazil,BRL,Moderate Volatility Expected,,,,brics-summit-1966,BRICS Summit
+396621,1729,SNB Gov Board Member Maechler Speaks,14-11-19 17:30,Switzerland,CHF,Moderate Volatility Expected,,,,snb-gov-board-member-maechler-speaks-1729,Swiss National Bank Governor Board Member Maechler Speaks
+396915,1142,RBA Assist Gov Kent Speaks,18-11-19 22:05,Australia,AUD,Moderate Volatility Expected,,,,rba-assist-gov-kent-speaks-1142,Assistant Governor Kent Speaks
+397152,1866,ECB Hakkarainen Speaks,19-11-19 08:30,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb-hakkarainen-speaks-1866,Member of the Supervisory Board (ECB representative) Pentti Hakkarainen Speaks
+396865,1865,ECB Financial Stability Review,20-11-19 09:00,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb-financial-stability-review-1865,ECB Financial Stability Review
+395267,1859,Treasury Department Report,22-11-19 22:00,United States,USD,Moderate Volatility Expected,,,,treasury-department-report-1859,US Treasury Department Report
+397205,64,Core Retail Sales,25-11-19 21:45,New Zealand,NZD,Moderate Volatility Expected,1.80%,,0.30%,core-retail-sales-64,Core Retail Sales 
+397211,1809,RBNZ Financial Stability Report,26-11-19 19:00,New Zealand,NZD,Moderate Volatility Expected,,,,rbnz-financial-stability-report-1809,RBNZ Financial Stability Report
+379534,1806,CBRT Financial Stability Report,29-11-19 11:00,Turkey,TRY,Moderate Volatility Expected,,,,cbrt-financial-stability-report-1806,Financial Stability Report
+397916,1734,BOJ Board Member Harada Speaks,05-12-19 01:30,Japan,JPY,Moderate Volatility Expected,,,,boj-board-member-harada-speaks-1734,Board Member Harada Speaks
+398219,1721,RBA Assist Gov Bullock Speaks,10-12-19 02:45,Australia,AUD,Moderate Volatility Expected,,,,rba-assist-gov-bullock-speaks-1721,Assist Governor Bullock Speaks
+397239,1941,Interest Rate Projection - 3rd Yr,11-12-19 19:00,United States,USD,Moderate Volatility Expected,2.1,,2.4,interest-rate-projection---3rd-yr-1941,Federal Funds Rate (FFR) Projection - 3rd Year
+397242,1943,Interest Rate Projection - Current,11-12-19 19:00,United States,USD,Moderate Volatility Expected,1.6,,1.9,interest-rate-projection---current-1943,Federal Funds Rate (FFR) Projection - Current
+397240,1942,Interest Rate Projection - Longer,11-12-19 19:00,United States,USD,Moderate Volatility Expected,2.5,,2.5,interest-rate-projection---longer-1942,Federal Funds Rate (FFR) Projection - Longer Term
+398158,1644,Euro Summit,13-12-19 10:00,Euro Zone,EUR,Moderate Volatility Expected,,,,euro-summit-1644,Euro Summit
+398603,1702,ECB's Coeure Speaks,18-12-19 11:15,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb's-coeure-speaks-1702,European Central Bank Coeure Speaks
+390220,1786,BCB National Monetary Council Meeting,19-12-19 12:00,Brazil,BRL,Moderate Volatility Expected,,,,bcb-national-monetary-council-meeting-1786,BCB National Monetary Council Meeting
+378231,1817,NBP Monetary Policy Meeting Minutes,19-12-19 13:00,Poland,PLN,Moderate Volatility Expected,,,,nbp-monetary-policy-meeting-minutes-1817,Central Bank Monetary Policy Meeting Minutes
+379310,1833,CBR Monetary Policy Meeting Minutes,23-12-19 12:00,Russia,RUB,Moderate Volatility Expected,,,,cbr-monetary-policy-meeting-minutes-1833,Monetary Policy Meeting Minutes
+378780,1823,BOK Financial Stability Board Meeting,26-12-19 01:00,South Korea,KRW,Moderate Volatility Expected,,,,bok-financial-stability-board-meeting-1823,Financial Stability Board Meeting
+403697,1826,RBI Financial Stability Report,27-12-19 04:30,India,INR,Moderate Volatility Expected,,,,rbi-financial-stability-report-1826,Financial Stability Report
+399259,1084,PBoC Reserve Requirement Ratio,01-01-20 07:07,China,CNY,Moderate Volatility Expected,12.50%,,13.00%,pboc-reserve-requirement-ratio-1084,Reserve Requirement Ratio
+399914,1701,BoE MPC Member Saunders Speaks,15-01-20 08:40,United Kingdom,GBP,Moderate Volatility Expected,,,,boe-mpc-member-saunders-speaks-1701,(BoE) Monetary Policy Committee (MPC) Member Saunders Speaks
+400174,1969,World Economic Forum Annual Meetings,24-01-20 08:00,Switzerland,CHF,Moderate Volatility Expected,,,,world-economic-forum-annual-meetings-1969,World Economic Forum Annual Meetings
+400140,9,Gross Mortgage Approvals,27-01-20 09:30,United Kingdom,GBP,Moderate Volatility Expected,46.8K,,44.1K,gross-mortgage-approvals-9,Gross Mortgage Approvals
+399541,1955,OPEC Crude Oil Production Ecuador,31-01-20 11:25,United States,USD,Moderate Volatility Expected,0.54M,,0.50M,opec-crude-oil-production-ecuador-1955,(Barrel)
+400685,1970,Indian Union Budget,01-02-20 06:00,India,INR,Moderate Volatility Expected,,,,indian-union-budget-1970, Union Budget
+401027,1727,BoC Gov Council Member Wilkins Speaks,05-02-20 17:30,Canada,CAD,Moderate Volatility Expected,,,,boc-gov-council-member-wilkins-speaks-1727,Governor Council Member Wilkins Speaks
+400908,384,NAB Quarterly Business Confidence,06-02-20 00:30,Australia,AUD,Moderate Volatility Expected,-1,,-1,nab-quarterly-business-confidence-384,Bank Quarterly Business Confidence
+401162,1789,BoJ Board Member Masai Speaks,06-02-20 01:30,Japan,JPY,Moderate Volatility Expected,,,,boj-board-member-masai-speaks-1789,Board Member Takako Masai Speaks
+401569,1835,FOMC Member Bowman Speaks,10-02-20 13:15,United States,USD,Moderate Volatility Expected,,,,fomc-member-bowman-speaks-1835,Federal Open Market Committee (FOMC) Member Michelle W. Bowman Speaks
+401715,1802,FOMC Member Daly Speaks,11-02-20 11:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-daly-speaks-1802,Federal Open Market Committee (FOMC) Member Mary Daly Speaks
+401573,1782,MPC Member Haskel Speaks,11-02-20 17:00,United Kingdom,GBP,Moderate Volatility Expected,,,,mpc-member-haskel-speaks-1782,(BoE) Monetary Policy Committee (MPC) Member Haskel Speaks
+401856,1651,FOMC Member Brainard Speaks,21-02-20 15:15,United States,USD,Moderate Volatility Expected,,,,fomc-member-brainard-speaks-1651,FOMC Member Brainard Speaks
+402408,1725,BoC Gov Council Member Lane Speaks,25-02-20 17:15,Canada,CAD,Moderate Volatility Expected,,,,boc-gov-council-member-lane-speaks-1725,Governor Council Member Lane Speaks
+402407,1803,FOMC Member Clarida Speaks,25-02-20 20:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-clarida-speaks-1803,Federal Open Market Committee (FOMC) Member Richard Clarida Speaks
+402412,1769,BoJ Board Member Kataoka Speaks,27-02-20 01:30,Japan,JPY,Moderate Volatility Expected,,,,boj-board-member-kataoka-speaks-1769,BoJ Board Member Kataoka Speaks
+402413,1794,BOJ Deputy Governor Amamiya Speaks,27-02-20 05:00,Japan,JPY,Moderate Volatility Expected,,,,boj-deputy-governor-amamiya-speaks-1794,Deputy Governor Masayoshi Amamiya Speaks
+403691,1829,RBI Monetary and Credit Information Review,28-02-20 04:30,India,INR,Moderate Volatility Expected,,,,rbi-monetary-and-credit-information-review-1829,Monetary and Credit Information Review
+402393,446,GDP,28-02-20 09:00,Poland,PLN,Moderate Volatility Expected,3.20%,3.10%,3.90%,gdp-446,Gross Domestic Product (GDP) 
+402422,1134,BoE MPC Member Cunliffe Speaks,28-02-20 16:15,United Kingdom,GBP,Moderate Volatility Expected,,,,boe-mpc-member-cunliffe-speaks-1134,(BoE) Monetary Policy Committee (MPC) Member Cunliffe Speaks
+401707,600,GDP Annualized,03-03-20 09:30,South Africa,ZAR,Moderate Volatility Expected,-1.40%,-0.10%,-0.80%,gdp-annualized-600,Gross Domestic Product (GDP) Annualized 
+402913,1135,BoE MPC Member Broadbent Speaks,04-03-20 18:00,United Kingdom,GBP,Moderate Volatility Expected,,,,boe-mpc-member-broadbent-speaks-1135,(BoE) Monetary Policy Committee (MPC) Member Broadbent Speaks
+402797,1699,BoE MPC Member Haldane Speaks,05-03-20 13:00,United Kingdom,GBP,Moderate Volatility Expected,,,,boe-mpc-member-haldane-speaks-1699,(BoE) Monetary Policy Committee (MPC) Member Haldane Speaks
+402911,839,FOMC Member Rosengren Speaks,06-03-20 19:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-rosengren-speaks-839,Federal Open Market Committee (FOMC) Member Rosengren Speaks
+402912,1664,FOMC Member George Speaks,06-03-20 20:30,United States,USD,Moderate Volatility Expected,,,,fomc-member-george-speaks-1664,FOMC Member George Speaks
+403147,1141,RBA Assist Gov Debelle Speaks,10-03-20 22:00,Australia,AUD,Moderate Volatility Expected,,,,rba-assist-gov-debelle-speaks-1141,Assistant Governor Debelle Speaks
+402205,21,BSI Large Manufacturing Conditions,11-03-20 23:50,Japan,JPY,Moderate Volatility Expected,-17.2,,-7.8,bsi-large-manufacturing-conditions-21,BSI Large Manufacturing Conditions
+403263,357,Westpac Consumer Sentiment,16-03-20 20:00,New Zealand,NZD,Moderate Volatility Expected,104.2,,109.9,westpac-consumer-sentiment-357,Westpac Consumer Sentiment
+402502,147,House Price Index,17-03-20 00:30,Australia,AUD,Moderate Volatility Expected,3.90%,3.90%,2.40%,house-price-index-147,House Price Index (HPI) 
+402524,1577,Wages in euro zone,17-03-20 10:00,Euro Zone,EUR,Moderate Volatility Expected,2.30%,,2.60%,wages-in-euro-zone-1577,Eurozone Wages 
+402547,1177,Current Account,17-03-20 21:45,New Zealand,NZD,Moderate Volatility Expected,-9.23B,-9.59B,-10.28B,current-account-1177,Current Account 
+402549,82,Current Account,17-03-20 21:45,New Zealand,NZD,Moderate Volatility Expected,-2.66B,-2.96B,-6.35B,current-account-82,Current Account 
+403548,1722,RBA Assist Gov Ellis Speaks,18-03-20 01:00,Australia,AUD,Moderate Volatility Expected,,,,rba-assist-gov-ellis-speaks-1722,Assist Governor Ellis Speaks
+402704,1117,Interest Rate,19-03-20 08:00,Taiwan,TWD,Moderate Volatility Expected,1.13%,1.25%,1.38%,interest-rate-1117,Interest Rate
+403868,1690,ECB LTRO,19-03-20 10:30,Euro Zone,EUR,Moderate Volatility Expected,115.0B,,97.7B,ecb-ltro-1690,ECB Long Term Refinancing Operation (LTRO)
+402723,81,Current Account,19-03-20 12:30,United States,USD,Moderate Volatility Expected,-109.8B,-109.0B,-125.4B,current-account-81,Current Account
+404015,1816,CBR Press Conference,20-03-20 12:00,Russia,RUB,Moderate Volatility Expected,,,,cbr-press-conference-1816,Press Conference
+402977,439,GDP,25-03-20 19:00,Argentina,ARS,Moderate Volatility Expected,-1.10%,,-1.70%,gdp-439,Gross Domestic Product (GDP) 
+404005,1853,Vietnamese GDP,27-03-20 06:30,Vietnam,VND,Moderate Volatility Expected,3.82%,,6.79%,vietnamese-gdp-1853,Gross Domestic Product (GDP) 
+403294,83,Current Account,31-03-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,-5.6B,-7.0B,-15.9B,current-account-83,Current Account
+402862,1951,OPEC Crude Oil Production Algeria,31-03-20 15:00,United States,USD,Moderate Volatility Expected,1.01M,,1.01M,opec-crude-oil-production-algeria-1951,(Barrel)
+402863,1954,OPEC Crude Oil Production Congo,31-03-20 15:00,United States,USD,Moderate Volatility Expected,0.31M,,0.33M,opec-crude-oil-production-congo-1954,(Barrel)
+402872,1952,OPEC Crude Oil Production Gabon,31-03-20 15:00,United States,USD,Moderate Volatility Expected,0.19M,,0.21M,opec-crude-oil-production-gabon-1952,(Barrel)
+402864,1956,OPEC Crude Oil Production Guinea,31-03-20 15:00,United States,USD,Moderate Volatility Expected,0.12M,,0.12M,opec-crude-oil-production-guinea-1956,(Barrel)
+402866,1944,OPEC Crude oil Production Iran,31-03-20 15:00,United States,USD,Moderate Volatility Expected,2.08M,,2.08M,opec-crude-oil-production-iran-1944,(Barrel)
+402865,1860,OPEC Crude oil Production Iraq,31-03-20 15:00,United States,USD,Moderate Volatility Expected,4.59M,,4.53M,opec-crude-oil-production-iraq-1860,(Barrel)
+402869,1948,OPEC Crude Oil Production Kuwait,31-03-20 15:00,United States,USD,Moderate Volatility Expected,2.66M,,2.67M,opec-crude-oil-production-kuwait-1948,(Barrel)
+402870,1949,OPEC Crude Oil Production Libya,31-03-20 15:00,United States,USD,Moderate Volatility Expected,0.15M,,0.76M,opec-crude-oil-production-libya-1949,(Barrel)
+402871,1950,OPEC Crude Oil Production Nigeria,31-03-20 15:00,United States,USD,Moderate Volatility Expected,1.79M,,1.80M,opec-crude-oil-production-nigeria-1950,a (Barrel)
+402867,1945,OPEC Crude oil Production Saudi Arabia,31-03-20 15:00,United States,USD,Moderate Volatility Expected,9.68M,,9.72M,opec-crude-oil-production-saudi-arabia-1945,(Barrel)
+402868,1947,OPEC Crude oil Production UAE,31-03-20 15:00,United States,USD,Moderate Volatility Expected,3.04M,,2.99M,opec-crude-oil-production-uae-1947, (UAE) (Barrel)
+402873,1946,OPEC Crude oil Production Venezuela,31-03-20 15:00,United States,USD,Moderate Volatility Expected,0.76M,,0.75M,opec-crude-oil-production-venezuela-1946,(Barrel)
+403342,1515,Tankan All Big Industry CAPEX,31-03-20 23:50,Japan,JPY,Moderate Volatility Expected,1.80%,-1.10%,6.80%,tankan-all-big-industry-capex-1515,Tankan All Big Industry CAPEX
+403338,1517,Tankan Big Manufacturing Outlook Index,31-03-20 23:50,Japan,JPY,Moderate Volatility Expected,-11,-14,0,tankan-big-manufacturing-outlook-index-1517,Tankan Big Manufacturing Outlook Index
+404370,586,Spanish 10-Year Obligacion Auction,02-04-20 09:00,Spain,EUR,Moderate Volatility Expected,0.72%,,0.66%,spanish-10-year-obligacion-auction-586,10-Year Obligacion Auction
+404628,1153,BoC Business Outlook Survey,06-04-20 14:30,Canada,CAD,Moderate Volatility Expected,,,,boc-business-outlook-survey-1153,Business Outlook Survey
+404498,229,NZIER Business Confidence,06-04-20 22:00,New Zealand,NZD,Moderate Volatility Expected,-70%,,-21%,nzier-business-confidence-229,Institute of Economic Research Business Confidence
+403445,1937,Labour Productivity,07-04-20 08:30,United Kingdom,GBP,Moderate Volatility Expected,0.30%,,0.30%,labour-productivity-1937,Labour Productivity
+404717,1643,Eurogroup Meetings,07-04-20 10:00,Euro Zone,EUR,Moderate Volatility Expected,,,,eurogroup-meetings-1643,Eurogroup Meetings
+404650,77,Adjusted Current Account,07-04-20 23:50,Japan,JPY,Moderate Volatility Expected,2.38T,,1.63T,adjusted-current-account-77,Adjusted Current Account
+404791,834,BoJ Governor Kuroda Speaks,09-04-20 00:30,Japan,JPY,Moderate Volatility Expected,,,,boj-governor-kuroda-speaks-834,Governor Kuroda Speaks
+404651,358,RBA Financial Stability Review,09-04-20 01:30,Australia,AUD,Moderate Volatility Expected,,,,rba-financial-stability-review-358,Financial Stability Review
+404739,1797,NIESR Monthly GDP Tracker,09-04-20 14:00,United Kingdom,GBP,Moderate Volatility Expected,-4.80%,,0.10%,niesr-monthly-gdp-tracker-1797,NIESR Monthly Gross Domestic Product (GDP) Tracker
+405161,1825,RBI MPC Meeting Minutes,13-04-20 11:30,India,INR,Moderate Volatility Expected,,,,rbi-mpc-meeting-minutes-1825,Monetary Policy Committee Meeting Minutes
+405120,1089,Interest Rate Decision,14-04-20 08:30,Indonesia,IDR,Moderate Volatility Expected,4.50%,4.50%,4.50%,interest-rate-decision-1089,Interest Rate Decision
+405045,1710,BoC Rate Statement,15-04-20 14:00,Canada,CAD,Moderate Volatility Expected,,,,boc-rate-statement-1710,(BOC) Rate Statement
+405050,10,Beige Book,15-04-20 18:00,United States,USD,Moderate Volatility Expected,,,,beige-book-10,Beige Book
+405052,1858,BOE Credit Conditions Survey,16-04-20 08:30,United Kingdom,GBP,Moderate Volatility Expected,,,,boe-credit-conditions-survey-1858,BOE Credit Conditions Survey
+405389,1679,Spanish 15-Year Obligacion Auction,16-04-20 09:40,Spain,EUR,Moderate Volatility Expected,1.19%,,0.85%,spanish-15-year-obligacion-auction-1679,15-Year Obligacion Auction
+405156,1720,MPC Member Tenreyro Speaks,16-04-20 13:30,United Kingdom,GBP,Moderate Volatility Expected,,,,mpc-member-tenreyro-speaks-1720,Monetary Policy Committee (MPC) Member Tenreyro Speaks
+404303,868,GDP,17-04-20 02:00,China,CNY,Moderate Volatility Expected,-9.80%,-9.90%,1.50%,gdp-868,Gross Domestic Product (GDP) 
+403912,1914,Chinese GDP YTD ,17-04-20 02:00,China,CNY,Moderate Volatility Expected,-6.80%,,6.10%,chinese-gdp-ytd--1914,Gross Domestic Product (GDP) Year to Date (YTD) 
+405430,1973,RBI Press Conference,17-04-20 04:30,India,INR,Moderate Volatility Expected,,,,rbi-press-conference-1973,Press Conference
+405060,282,Tertiary Industry Activity Index,17-04-20 04:30,Japan,JPY,Moderate Volatility Expected,-0.50%,,0.30%,tertiary-industry-activity-index-282,Tertiary Industry Activity Index 
+404429,1063,CPI,19-04-20 22:45,New Zealand,NZD,Moderate Volatility Expected,2.50%,2.10%,1.90%,cpi-1063,Consumer Price Index (CPI) 
+405477,392,RBA Governor Lowe Speaks,21-04-20 05:00,Australia,AUD,Moderate Volatility Expected,,,,rba-governor-lowe-speaks-392,Governor Lowe Speaks
+404536,223,New Housing Price Index,22-04-20 12:30,Canada,CAD,Moderate Volatility Expected,0.30%,,0.40%,new-housing-price-index-223,New Housing Price Index 
+405780,1719,MPC Member Vlieghe Speaks,23-04-20 09:30,United Kingdom,GBP,Moderate Volatility Expected,,,,mpc-member-vlieghe-speaks-1719,Monetary Policy Committee (MPC) Member Vlieghe Speaks
+405006,1624,Interest Rate Decision,23-04-20 11:00,Ukraine,UAH,Moderate Volatility Expected,8.00%,9.25%,10.00%,interest-rate-decision-1624,Interest Rate Decision
+405781,1585,FOMC Member Williams Speaks,23-04-20 18:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-williams-speaks-1585,FOMC Member Williams Speaks
+405553,441,Retail Sales,23-04-20 19:00,Argentina,ARS,Moderate Volatility Expected,72.70%,,52.10%,retail-sales-441,Retail Sales 
+405554,1766,National CPI,23-04-20 23:00,Japan,JPY,Moderate Volatility Expected,0.00%,,-0.10%,national-cpi-1766,National Consumer Price Index (CPI) 
+405907,1623,France Jobseekers Total,27-04-20 10:00,France,EUR,Moderate Volatility Expected,"3,488.6K",,"3,245.6K",france-jobseekers-total-1623,Jobseekers Total
+405250,427,Interest Rate Decision,28-04-20 07:30,Sweden,SEK,Moderate Volatility Expected,0.00%,,0.00%,interest-rate-decision-427,Interest Rate Decision
+404863,1011,CPI,29-04-20 01:30,Australia,AUD,Moderate Volatility Expected,2.20%,2.00%,1.80%,cpi-1011,Consumer Price Index (CPI) 
+404865,293,Trimmed Mean CPI,29-04-20 01:30,Australia,AUD,Moderate Volatility Expected,0.50%,0.40%,0.40%,trimmed-mean-cpi-293,Trimmed Mean Consumer Price Index (CPI) 
+405927,1851,Vietnamese CPI,29-04-20 02:00,Vietnam,VND,Moderate Volatility Expected,2.90%,,4.90%,vietnamese-cpi-1851,Consumer Price Index (CPI) 
+405929,580,German 10-Year Bund Auction,29-04-20 09:40,Germany,EUR,Moderate Volatility Expected,-0.48%,,-0.34%,german-10-year-bund-auction-580,10-Year Bund Auction
+405937,583,Italian 10-Year BTP Auction,29-04-20 09:45,Italy,EUR,Moderate Volatility Expected,1.78%,,1.48%,italian-10-year-btp-auction-583,10-Year BTP Auction
+404965,402,Spanish GDP,30-04-20 07:00,Spain,EUR,Moderate Volatility Expected,-5.20%,-4.40%,0.40%,spanish-gdp-402,Gross Domestic Product (GDP) 
+405001,591,Quarterly Unemployment Rate,30-04-20 10:00,Israel,ILS,Moderate Volatility Expected,3.50%,,3.70%,quarterly-unemployment-rate-591,Quarterly Unemployment Rate
+405979,411,Unemployment Rate,30-04-20 12:00,Brazil,BRL,Moderate Volatility Expected,12.20%,,11.60%,unemployment-rate-411,Unemployment Rate
+405024,331,Employment Cost Index,30-04-20 12:30,United States,USD,Moderate Volatility Expected,0.80%,0.60%,0.70%,employment-cost-index-331,Employment Cost Index 
+406232,407,GDP Monthly,30-04-20 18:00,Russia,RUB,Moderate Volatility Expected,0.90%,-0.70%,2.80%,gdp-monthly-407,Gross Domestic Product (GDP) Monthly 
+406219,210,Monetary Policy Meeting Minutes,30-04-20 23:50,Japan,JPY,Moderate Volatility Expected,,,,monetary-policy-meeting-minutes-210,Monetary Policy Meeting Minutes
+405991,377,HIA New Home Sales,01-05-20 00:00,Australia,AUD,Moderate Volatility Expected,-23.20%,,6.20%,hia-new-home-sales-377,HIA New Home Sales 
+405086,239,PPI,01-05-20 01:30,Australia,AUD,Moderate Volatility Expected,0.20%,,0.30%,ppi-239,Producer Price Index (PPI) 
+405087,1164,PPI,01-05-20 01:30,Australia,AUD,Moderate Volatility Expected,1.30%,,1.40%,ppi-1164,Producer Price Index (PPI) 
+405234,800,CPI,05-05-20 03:30,Thailand,THB,Moderate Volatility Expected,-2.99%,-1.20%,-0.54%,cpi-800,Consumer Price Index (CPI) 
+405748,1072,GDP,05-05-20 04:11,Indonesia,IDR,Moderate Volatility Expected,-2.41%,-1.27%,-1.74%,gdp-1072,Gross Domestic Product (GDP) 
+405241,362,SECO Consumer Climate,05-05-20 05:45,Switzerland,CHF,Moderate Volatility Expected,-56,,-7,seco-consumer-climate-362,SECO Consumer Climate
+406298,830,Spanish Unemployment Change,05-05-20 07:00,Spain,EUR,Moderate Volatility Expected,282.9K,,302.3K,spanish-unemployment-change-830,Unemployment Change
+405642,1106,Interest Rate,05-05-20 07:00,Malaysia,MYR,Moderate Volatility Expected,2.00%,2.00%,2.50%,interest-rate-1106,Interest Rate
+406450,1032,German Buba President Weidmann Speaks,05-05-20 08:00,Germany,EUR,Moderate Volatility Expected,,,,german-buba-president-weidmann-speaks-1032,German Bundesbank President Weidmann Speaks
+406472,1837,ECB's Enria Speaks,05-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb's-enria-speaks-1837,European Central Bank Enria Speaks
+406299,1696,EU Economic Forecasts,05-05-20 10:00,Euro Zone,EUR,Moderate Volatility Expected,,,,eu-economic-forecasts-1696,European Union Economic Forecasts
+406339,1762,Exports,05-05-20 12:30,United States,USD,Moderate Volatility Expected,187.80B,,207.50B,exports-1762,Exports 
+406340,1763,Imports,05-05-20 12:30,United States,USD,Moderate Volatility Expected,232.20B,,247.50B,imports-1763,Imports 
+405272,286,Trade Balance,05-05-20 12:30,United States,USD,Moderate Volatility Expected,-44.40B,-44.00B,-39.80B,trade-balance-286,Trade Balance
+405271,285,Trade Balance,05-05-20 12:30,Canada,CAD,Moderate Volatility Expected,-1.41B,-2.00B,-0.89B,trade-balance-285,Trade Balance
+406302,1654,GlobalDairyTrade Price Index,05-05-20 15:20,New Zealand,NZD,Moderate Volatility Expected,-0.80%,,-4.20%,globaldairytrade-price-index-1654,GlobalDairyTrade Price Index
+405702,295,Unemployment Rate,05-05-20 22:45,New Zealand,NZD,Moderate Volatility Expected,4.10%,4.30%,4.00%,unemployment-rate-295,Unemployment Rate
+405301,130,German Factory Orders,06-05-20 06:00,Germany,EUR,Moderate Volatility Expected,-15.60%,-10.00%,-1.20%,german-factory-orders-130,Factory Orders 
+405325,255,Retail Sales,06-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,-11.20%,-10.50%,0.60%,retail-sales-255,Eurozone Retail Sales 
+405339,440,Industrial Production,06-05-20 19:00,Argentina,ARS,Moderate Volatility Expected,-16.80%,,-1.00%,industrial-production-440,Industrial Production 
+405732,415,Interest Rate Decision,06-05-20 21:00,Brazil,BRL,Moderate Volatility Expected,3.00%,3.25%,3.75%,interest-rate-decision-415,Interest Rate Decision
+405349,291,Trade Balance,07-05-20 01:30,Australia,AUD,Moderate Volatility Expected,10.602B,6.800B,4.361B,trade-balance-291,Trade Balance
+406304,342,Inflation Expectations,07-05-20 03:00,New Zealand,NZD,Moderate Volatility Expected,1.20%,,1.90%,inflation-expectations-342,Inflation Expectations 
+405355,595,Exports,07-05-20 03:01,China,CNY,Moderate Volatility Expected,3.50%,-15.70%,-6.60%,exports-595,Exports 
+405353,867,Imports,07-05-20 03:01,China,CNY,Moderate Volatility Expected,-14.20%,-11.20%,-1.00%,imports-867,Imports 
+405354,466,Trade Balance,07-05-20 03:01,China,CNY,Moderate Volatility Expected,45.34B,6.35B,19.93B,trade-balance-466,Trade Balance (USD)
+406447,959,Unemployment Rate n.s.a.,07-05-20 05:45,Switzerland,CHF,Moderate Volatility Expected,3.30%,3.30%,2.90%,unemployment-rate-n.s.a.-959,Unemployment Rate n.s.a.
+406448,296,Unemployment Rate s.a.,07-05-20 05:45,Switzerland,CHF,Moderate Volatility Expected,3.30%,3.30%,2.80%,unemployment-rate-s.a.-296,Unemployment Rate s.a.
+406550,1672,BoE Financial Stability Report,07-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,,,,boe-financial-stability-report-1672,(BoE) Financial Stability Report
+406365,846,BoE MPC vote cut,07-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,0,,2,boe-mpc-vote-cut-846,BoE MPC Vote Cut
+406363,847,BoE MPC vote hike,07-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,0,,0,boe-mpc-vote-hike-847,BoE MPC Vote Hike
+406364,848,BoE MPC vote unchanged,07-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,9,9,9,boe-mpc-vote-unchanged-848,BoE MPC Vote Unchanged
+406361,665,BoE QE Total,07-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,645B,625B,645B,boe-qe-total-665,BoE QE Total
+406186,135,German Industrial Production,07-05-20 06:00,Germany,EUR,Moderate Volatility Expected,-9.20%,-7.50%,0.30%,german-industrial-production-135,Industrial Production 
+405359,339,French Non-Farm Payrolls,07-05-20 06:45,France,EUR,Moderate Volatility Expected,-2.30%,,0.40%,french-non-farm-payrolls-339,Non-Farm Payrolls 
+405373,145,Halifax House Price Index,07-05-20 07:30,United Kingdom,GBP,Moderate Volatility Expected,-0.60%,-0.70%,-0.30%,halifax-house-price-index-145,Halifax House Price Index 
+406354,844,Halifax House Price Index,07-05-20 07:30,United Kingdom,GBP,Moderate Volatility Expected,2.70%,,3.00%,halifax-house-price-index-844,Halifax House Price Index 
+405390,1192,CPI,07-05-20 11:00,Mexico,MXN,Moderate Volatility Expected,-1.01%,-1.04%,-0.05%,cpi-1192,Consumer Price Index (CPI) 
+405391,417,CPI,07-05-20 11:00,Mexico,MXN,Moderate Volatility Expected,2.15%,2.13%,3.25%,cpi-417,Consumer Price Index (CPI) 
+405403,406,CPI,07-05-20 17:01,Russia,RUB,Moderate Volatility Expected,0.80%,0.80%,0.60%,cpi-406,Consumer Price Index (CPI) 
+405402,1180,CPI,07-05-20 17:01,Russia,RUB,Moderate Volatility Expected,3.10%,3.10%,2.50%,cpi-1180,Consumer Price Index (CPI) 
+405415,1191,Household Spending,07-05-20 23:30,Japan,JPY,Moderate Volatility Expected,-4.00%,-4.00%,0.80%,household-spending-1191,Household Spending 
+405413,361,Household Spending,07-05-20 23:30,Japan,JPY,Moderate Volatility Expected,-6.00%,-6.70%,-0.30%,household-spending-361,Household Spending 
+406309,335,RBA Monetary Policy Statement,08-05-20 01:30,Australia,AUD,Moderate Volatility Expected,,,,rba-monetary-policy-statement-335,Monetary Policy Statement
+405445,141,German Trade Balance,08-05-20 06:00,Germany,EUR,Moderate Volatility Expected,12.8B,18.9B,21.4B,german-trade-balance-141,Trade Balance
+405492,410,CPI,08-05-20 12:00,Brazil,BRL,Moderate Volatility Expected,2.40%,2.49%,3.30%,cpi-410,Consumer Price Index (CPI) 
+405493,1165,CPI,08-05-20 12:00,Brazil,BRL,Moderate Volatility Expected,-0.31%,-0.20%,0.07%,cpi-1165,Consumer Price Index (CPI) 
+406771,1883,Brazilian IPCA Inflation Index SA,08-05-20 12:00,Brazil,BRL,Moderate Volatility Expected,-0.35%,,0.01%,brazilian-ipca-inflation-index-sa-1883,an IPCA Inflation Index Seasonally Adjusted 
+405502,150,Housing Starts,08-05-20 12:15,Canada,CAD,Moderate Volatility Expected,166.4K,110.0K,150.2K,housing-starts-150,Housing Starts
+405521,1777,Average Hourly Earnings,08-05-20 12:30,United States,USD,Moderate Volatility Expected,7.90%,3.30%,3.30%,average-hourly-earnings-1777,Average Hourly Earnings 
+405509,8,Average Hourly Earnings,08-05-20 12:30,United States,USD,Moderate Volatility Expected,4.70%,0.40%,0.50%,average-hourly-earnings-8,Average Hourly Earnings 
+405519,1581,Participation Rate,08-05-20 12:30,United States,USD,Moderate Volatility Expected,60.20%,,62.70%,participation-rate-1581,Participation Rate
+405518,24,Building Permits,08-05-20 12:30,Canada,CAD,Moderate Volatility Expected,-13.20%,-20.00%,-8.40%,building-permits-24,Building Permits 
+405514,301,Unemployment Rate,08-05-20 12:30,Canada,CAD,Moderate Volatility Expected,13.00%,18.00%,7.80%,unemployment-rate-301,Unemployment Rate
+405529,430,CPI,08-05-20 12:30,Ukraine,UAH,Moderate Volatility Expected,0.80%,1.10%,0.80%,cpi-430,Consumer Price Index (CPI) 
+405594,1058,Electronic Card Retail Sales,10-05-20 22:45,New Zealand,NZD,Moderate Volatility Expected,-46.80%,,-4.60%,electronic-card-retail-sales-1058,Electronic Card Retail Sales 
+405607,643,CPI,11-05-20 06:00,Denmark,DKK,Moderate Volatility Expected,0.00%,,0.40%,cpi-643,Consumer Price Index (CPI) 
+405614,614,Quarterly 3-month Jobless Average,11-05-20 07:00,Turkey,TRY,Moderate Volatility Expected,13.60%,,13.80%,quarterly-3-month-jobless-average-614,Quarterly 3-Month Jobless Average
+406903,1060,New Loans,11-05-20 07:30,China,CNY,Moderate Volatility Expected,"1,700.0B","1,400.0B","2,850.0B",new-loans-1060,New Loans
+405163,884,M1 Money Supply,11-05-20 08:00,Israel,ILS,Moderate Volatility Expected,13.60%,,6.20%,m1-money-supply-884,M1 Money Supply 
+406881,1717,ECB's Mersch Speaks,11-05-20 08:00,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb's-mersch-speaks-1717,European Central Bank Mersch Speaks
+406596,1784,BCB Focus Market Readout,11-05-20 11:25,Brazil,BRL,Moderate Volatility Expected,,,,bcb-focus-market-readout-1784,BCB Focus Market Readout
+406882,1712,FOMC Member Bostic Speaks,11-05-20 16:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-bostic-speaks-1712,Federal Open Market Committee (FOMC) Member Bostic Speaks
+405632,217,NAB Business Confidence,12-05-20 01:30,Australia,AUD,Moderate Volatility Expected,-46,,-66,nab-business-confidence-217,Bank Business Confidence
+405629,743,CPI,12-05-20 01:30,China,CNY,Moderate Volatility Expected,-0.90%,-0.50%,-1.20%,cpi-743,Consumer Price Index (CPI) 
+405630,459,CPI,12-05-20 01:30,China,CNY,Moderate Volatility Expected,3.30%,3.70%,4.30%,cpi-459,Consumer Price Index (CPI) 
+405631,464,PPI,12-05-20 01:30,China,CNY,Moderate Volatility Expected,-3.10%,-2.60%,-1.50%,ppi-464,Producer Price Index (PPI) 
+406666,725,10-Year JGB Auction,12-05-20 03:35,Japan,JPY,Moderate Volatility Expected,0.00%,,0.02%,10-year-jgb-auction-725,10-Year JGB Auction
+405637,443,GDP,12-05-20 06:00,Norway,NOK,Moderate Volatility Expected,-1.50%,-1.50%,1.50%,gdp-443,Gross Domestic Product (GDP) 
+405657,973,CPI,12-05-20 12:00,India,INR,Moderate Volatility Expected,5.84%,5.68%,5.91%,cpi-973,Consumer Price Index (CPI) 
+405664,736,Core CPI,12-05-20 12:30,United States,USD,Moderate Volatility Expected,1.40%,1.70%,2.10%,core-cpi-736,Core Consumer Price Index (CPI) 
+405663,69,CPI,12-05-20 12:30,United States,USD,Moderate Volatility Expected,-0.80%,-0.80%,-0.40%,cpi-69,Consumer Price Index (CPI) 
+406925,838,FOMC Member Bullard Speaks,12-05-20 13:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-bullard-speaks-838,Federal Open Market Committee (FOMC) Member Bullard Speaks
+406669,1666,FOMC Member Harker Speaks,12-05-20 14:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-harker-speaks-1666,FOMC Member Harker Speaks
+406670,1736,FOMC Member Quarles Speaks,12-05-20 14:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-quarles-speaks-1736,Federal Open Market Committee (FOMC) Member Quarles Speaks
+406671,571,10-Year Note Auction,12-05-20 17:01,United States,USD,Moderate Volatility Expected,0.70%,,0.78%,10-year-note-auction-571,10-Year Note Auction
+405673,369,Federal Budget Balance,12-05-20 18:00,United States,USD,Moderate Volatility Expected,-738.0B,-747.5B,-119.0B,federal-budget-balance-369,Federal Budget Balance
+406753,656,API Weekly Crude Oil Stock,12-05-20 20:30,United States,USD,Moderate Volatility Expected,7.580M,5.000M,8.400M,api-weekly-crude-oil-stock-656,API Weekly Crude Oil Stock
+406680,1336,FOMC Member Mester Speaks,12-05-20 21:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-mester-speaks-1336,Federal Open Market Committee (FOMC) Member Mester Speaks
+405675,18,BRC Retail Sales Monitor,12-05-20 23:01,United Kingdom,GBP,Moderate Volatility Expected,5.70%,,-3.50%,brc-retail-sales-monitor-18,BRC Retail Sales Monitor 
+405676,994,Current Account n.s.a.,12-05-20 23:50,Japan,JPY,Moderate Volatility Expected,1.971T,2.211T,3.169T,current-account-n.s.a.-994,Current Account n.s.a.
+405678,364,Westpac Consumer Sentiment,13-05-20 00:30,Australia,AUD,Moderate Volatility Expected,16.40%,,-17.70%,westpac-consumer-sentiment-364,Westpac Consumer Sentiment
+405680,336,Wage Price Index,13-05-20 01:30,Australia,AUD,Moderate Volatility Expected,0.50%,0.50%,0.50%,wage-price-index-336,Wage Price Index 
+406682,400,RBNZ Monetary Policy Statement,13-05-20 02:00,New Zealand,NZD,Moderate Volatility Expected,,,,rbnz-monetary-policy-statement-400,Monetary Policy Statement
+405684,507,GDP,13-05-20 04:00,Malaysia,MYR,Moderate Volatility Expected,0.70%,-1.50%,3.60%,gdp-507,Gross Domestic Product (GDP) 
+405694,30,Business Investment,13-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,0.00%,-2.50%,-0.50%,business-investment-30,Business Investment 
+405688,158,Industrial Production,13-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,-4.20%,-5.60%,-0.10%,industrial-production-158,Industrial Production 
+405696,284,Trade Balance,13-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,-12.51B,-10.00B,-9.83B,trade-balance-284,Trade Balance
+405697,849,Trade Balance Non-EU,13-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,-4.88B,-4.00B,-3.87B,trade-balance-non-eu-849,Trade Balance Non-EU
+405709,1185,CPI,13-05-20 07:30,Sweden,SEK,Moderate Volatility Expected,-0.30%,-0.30%,-0.20%,cpi-1185,Consumer Price Index (CPI) 
+405708,425,CPI,13-05-20 07:30,Sweden,SEK,Moderate Volatility Expected,-0.40%,0.10%,0.60%,cpi-425,Consumer Price Index (CPI) 
+405713,160,Industrial Production,13-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,-11.30%,-12.10%,-0.10%,industrial-production-160,Eurozone Industrial Production 
+405724,861,Retail Sales,13-05-20 12:00,Brazil,BRL,Moderate Volatility Expected,-2.50%,-7.70%,1.20%,retail-sales-861,Retail Sales 
+405723,416,Retail Sales,13-05-20 12:00,Brazil,BRL,Moderate Volatility Expected,-1.20%,-6.00%,4.70%,retail-sales-416,Retail Sales 
+405727,62,Core PPI,13-05-20 12:30,United States,USD,Moderate Volatility Expected,-0.30%,0.00%,0.20%,core-ppi-62,Core Producer Price Index (PPI) 
+406707,226,NIESR GDP Estimate,13-05-20 13:30,United Kingdom,GBP,Moderate Volatility Expected,-11.80%,,-2.00%,niesr-gdp-estimate-226,NIESR Gross Domestic Product (GDP) Estimate
+406597,1974,Seevol Cushing Storage Report,13-05-20 13:30,United States,USD,Moderate Volatility Expected,-2.177M,,2.850M,seevol-cushing-storage-report-1974,Seevol Cushing Storage Report
+406645,1657,Cushing Crude Oil Inventories,13-05-20 14:30,United States,USD,Moderate Volatility Expected,-3.002M,-2.177M,2.068M,cushing-crude-oil-inventories-1657,Cushing Crude Oil Inventories
+405735,264,RICS House Price Balance,13-05-20 23:01,United Kingdom,GBP,Moderate Volatility Expected,-21%,-38%,9%,rics-house-price-balance-264,RICS House Price Balance
+405742,1052,Full Employment Change,14-05-20 01:30,Australia,AUD,Moderate Volatility Expected,-220.5K,,-0.4K,full-employment-change-1052,Full Employment Change
+405739,302,Unemployment Rate,14-05-20 01:30,Australia,AUD,Moderate Volatility Expected,6.20%,8.30%,5.20%,unemployment-rate-302,Unemployment Rate
+405762,240,PPI,14-05-20 06:30,Switzerland,CHF,Moderate Volatility Expected,-1.30%,,-0.30%,ppi-240,Producer Price Index (PPI) 
+405760,564,WPI Inflation,14-05-20 06:30,India,INR,Moderate Volatility Expected,0.00%,0.30%,1.00%,wpi-inflation-564,Wholesale Price Index (WPI) Inflation 
+405765,961,Spanish CPI,14-05-20 07:00,Spain,EUR,Moderate Volatility Expected,-0.70%,-0.70%,0.00%,spanish-cpi-961,Consumer Price Index (CPI) 
+406772,1847,Turkish Retail Sales,14-05-20 07:00,Turkey,TRY,Moderate Volatility Expected,-8.10%,,1.40%,turkish-retail-sales-1847,Turkish Retail Sales 
+406773,1848,Turkish Retail Sales,14-05-20 07:00,Turkey,TRY,Moderate Volatility Expected,-0.20%,,10.60%,turkish-retail-sales-1848,Turkish Retail Sales 
+406714,318,ECB Economic Bulletin,14-05-20 08:00,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb-economic-bulletin-318,European Central Bank Economic Bulletin
+405810,892,Export Price Index,14-05-20 12:30,United States,USD,Moderate Volatility Expected,,-2.10%,-1.60%,export-price-index-892,Export Price Index 
+405811,153,Import Price Index,14-05-20 12:30,United States,USD,Moderate Volatility Expected,,-3.10%,-2.30%,import-price-index-153,Import Price Index 
+405812,207,Manufacturing Sales,14-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,-5.70%,0.50%,manufacturing-sales-207,Manufacturing Sales 
+406869,969,Central Bank reserves,14-05-20 13:00,Russia,RUB,Moderate Volatility Expected,,,567.3B,central-bank-reserves-969,Central Bank Reserves (USD)
+406928,1790,ECB's De Guindos Speaks,14-05-20 15:00,Euro Zone,EUR,Moderate Volatility Expected,,,,ecb's-de-guindos-speaks-1790,Vice-President of the European Central Bank Luis De Guindos Speaks
+406929,1665,FOMC Member Kashkari Speaks,14-05-20 17:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-kashkari-speaks-1665,FOMC Member Kashkari Speaks
+405838,436,CPI,14-05-20 19:00,Argentina,ARS,Moderate Volatility Expected,,,3.60%,cpi-436,Consumer Price Index (CPI) 
+406930,1662,FOMC Member Kaplan Speaks,14-05-20 22:00,United States,USD,Moderate Volatility Expected,,,,fomc-member-kaplan-speaks-1662,FOMC Member Kaplan Speaks
+404295,338,Business NZ PMI,14-05-20 22:30,New Zealand,NZD,Moderate Volatility Expected,,,53.2,business-nz-pmi-338,Business NZ Purchasing Managers Index (PMI)
+405852,460,Fixed Asset Investment,15-05-20 02:00,China,CNY,Moderate Volatility Expected,,-10.00%,-16.10%,fixed-asset-investment-460,Fixed Asset Investment 
+405847,1916,Chinese Industrial Production YTD ,15-05-20 02:00,China,CNY,Moderate Volatility Expected,,,-8.40%,chinese-industrial-production-ytd--1916,Industrial Production Year to Date (YTD) 
+406718,1793,Chinese Unemployment Rate,15-05-20 02:00,China,CNY,Moderate Volatility Expected,,,5.90%,chinese-unemployment-rate-1793,Chinese Unemployment Rate
+406804,1752,NBS Press Conference,15-05-20 02:00,China,CNY,Moderate Volatility Expected,,,,nbs-press-conference-1752,Press Conference
+405876,112,French CPI,15-05-20 06:45,France,EUR,Moderate Volatility Expected,,,-0.10%,french-cpi-112,Consumer Price Index (CPI) 
+405875,940,French HICP,15-05-20 06:45,France,EUR,Moderate Volatility Expected,,0.10%,0.10%,french-hicp-940,Harmonised Index of Consumer Prices (HICP) 
+405957,1394,Trade Balance YTD,15-05-20 07:20,Ukraine,UAH,Moderate Volatility Expected,,,-0.4B,trade-balance-ytd-1394,Trade Balance YTD (USD)
+405881,879,GDP,15-05-20 08:00,Poland,PLN,Moderate Volatility Expected,,-1.20%,0.30%,gdp-879,Gross Domestic Product (GDP) 
+405884,869,Budget balance,15-05-20 08:00,Turkey,TRY,Moderate Volatility Expected,,,-43.70B,budget-balance-869,Budget Balance
+405893,925,GDP,15-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,,-3.30%,-3.30%,gdp-925,Eurozone Gross Domestic Product (GDP) 
+405891,120,GDP,15-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,,-3.80%,-3.80%,gdp-120,Eurozone Gross Domestic Product (GDP) 
+405898,287,Trade Balance,15-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,,,23.0B,trade-balance-287,Eurozone Trade Balance
+405922,589,CPI,15-05-20 11:00,Israel,ILS,Moderate Volatility Expected,,,0.40%,cpi-589,Consumer Price Index (CPI) 
+405935,323,NY Empire State Manufacturing Index,15-05-20 12:30,United States,USD,Moderate Volatility Expected,,-63.5,-78.2,ny-empire-state-manufacturing-index-323,NY Empire State Manufacturing Index
+406243,109,Foreign Securities Purchases,15-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,,20.61B,foreign-securities-purchases-109,Foreign Securities Purchases
+405949,1755,Industrial Production,15-05-20 13:15,United States,USD,Moderate Volatility Expected,,,-5.49%,industrial-production-1755,Industrial Production 
+405952,161,Industrial Production,15-05-20 13:15,United States,USD,Moderate Volatility Expected,,-11.50%,-5.40%,industrial-production-161,Industrial Production 
+405972,29,Business Inventories,15-05-20 14:00,United States,USD,Moderate Volatility Expected,,-0.20%,-0.40%,business-inventories-29,Business Inventories 
+405865,504,Trade Balance,15-05-20 14:19,Indonesia,IDR,Moderate Volatility Expected,,-0.20B,0.74B,trade-balance-504,Trade Balance
+406838,1652,U.S. Baker Hughes Oil Rig Count,15-05-20 17:00,United States,USD,Moderate Volatility Expected,,,292,u.s.-baker-hughes-oil-rig-count-1652,Baker Hughes Oil Rig Count
+406839,1810,U.S. Baker Hughes Total Rig Count,15-05-20 17:00,United States,USD,Moderate Volatility Expected,,,374,u.s.-baker-hughes-total-rig-count-1810,Baker Hughes Total Rig Count
+406027,283,TIC Net Long-Term Transactions,15-05-20 20:00,United States,USD,Moderate Volatility Expected,,,49.4B,tic-net-long-term-transactions-283,TIC Net Long-Term Transactions
+406048,1053,GDP,17-05-20 23:50,Japan,JPY,Moderate Volatility Expected,,-4.60%,-7.10%,gdp-1053,Gross Domestic Product (GDP) 
+406052,476,GDP,18-05-20 02:30,Thailand,THB,Moderate Volatility Expected,,2.10%,1.60%,gdp-476,Gross Domestic Product (GDP) 
+406067,243,PPI Input,18-05-20 22:45,New Zealand,NZD,Moderate Volatility Expected,,,0.10%,ppi-input-243,Producer Price Index (PPI) Input 
+406742,146,Home Loans,19-05-20 01:30,Australia,AUD,Moderate Volatility Expected,,,-2.00%,home-loans-146,Home Loans 
+406080,1743,Employment Change 3M/3M,19-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,,100K,172K,employment-change-3m-3m-1743,Employment Change 3M/3M
+406081,297,Unemployment Rate,19-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,,3.90%,4.00%,unemployment-rate-297,Unemployment Rate
+406091,1036,German ZEW Current Conditions,19-05-20 09:00,Germany,EUR,Moderate Volatility Expected,,-77.5,-91.5,german-zew-current-conditions-1036,ZEW Current Conditions
+406090,310,ZEW Economic Sentiment,19-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,,,25.2,zew-economic-sentiment-310,Eurozone ZEW Economic Sentiment
+406100,885,Building Permits,19-05-20 12:30,United States,USD,Moderate Volatility Expected,,,-7.00%,building-permits-885,Building Permits 
+406098,898,Housing Starts,19-05-20 12:30,United States,USD,Moderate Volatility Expected,,,-22.30%,housing-starts-898,Housing Starts 
+406099,151,Housing Starts,19-05-20 12:30,United States,USD,Moderate Volatility Expected,,0.986M,1.216M,housing-starts-151,Housing Starts
+406102,970,GDP Quarterly,19-05-20 13:00,Russia,RUB,Moderate Volatility Expected,,1.90%,1.50%,gdp-quarterly-970,Gross Domestic Product (GDP) Quarterly 
+406110,1101,CPI,20-05-20 04:00,Malaysia,MYR,Moderate Volatility Expected,,-0.10%,-0.20%,cpi-1101,Consumer Price Index (CPI) 
+406126,727,CPI,20-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,,,0.40%,cpi-727,Consumer Price Index (CPI) 
+406120,242,PPI Input,20-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,,-3.90%,-3.60%,ppi-input-242,Producer Price Index (PPI) Input 
+406130,137,German PPI,20-05-20 06:00,Germany,EUR,Moderate Volatility Expected,,-0.70%,-0.80%,german-ppi-137,Producer Price Index (PPI) 
+406512,478,Interest Rate Decision,20-05-20 07:05,Thailand,THB,Moderate Volatility Expected,,,0.75%,interest-rate-decision-478,Interest Rate Decision
+406153,317,Core CPI,20-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,,1.00%,0.90%,core-cpi-317,Eurozone Core Consumer Price Index (CPI) 
+406150,928,CPI,20-05-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,,0.50%,0.50%,cpi-928,Eurozone Consumer Price Index (CPI) 
+406165,1020,Core CPI,20-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,,1.60%,core-cpi-1020,Core Consumer Price Index (CPI) 
+406164,70,CPI,20-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,-0.40%,-0.60%,cpi-70,Consumer Price Index (CPI) 
+406167,306,Wholesale Sales,20-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,-0.40%,0.70%,wholesale-sales-306,Wholesale Sales 
+406189,437,Economic Activity,20-05-20 19:00,Argentina,ARS,Moderate Volatility Expected,,-3.40%,-2.20%,economic-activity-437,Economic Activity 
+406179,995,Exports,20-05-20 23:50,Japan,JPY,Moderate Volatility Expected,,-10.10%,-11.70%,exports-995,Exports 
+406178,1005,Trade Balance,20-05-20 23:50,Japan,JPY,Moderate Volatility Expected,,420.0B,5.4B,trade-balance-1005,Trade Balance
+406198,34,CBI Industrial Trends Orders,21-05-20 10:00,United Kingdom,GBP,Moderate Volatility Expected,,,-56,cbi-industrial-trends-orders-34,CBI Industrial Trends Orders
+406200,1067,Overnight Lending Rate,21-05-20 11:00,Turkey,TRY,Moderate Volatility Expected,,,10.25%,overnight-lending-rate-1067,Overnight Lending Rate
+406210,908,Philly Fed Employment,21-05-20 12:30,United States,USD,Moderate Volatility Expected,,,-46.7,philly-fed-employment-908,Philadelphia Fed Employment
+406214,604,Interest Rate Decision,21-05-20 13:00,South Africa,ZAR,Moderate Volatility Expected,,3.75%,4.25%,interest-rate-decision-604,Interest Rate Decision
+406221,891,Existing Home Sales,21-05-20 14:00,United States,USD,Moderate Volatility Expected,,-8.10%,-8.50%,existing-home-sales-891,Existing Home Sales 
+406236,257,Retail Sales,21-05-20 22:45,New Zealand,NZD,Moderate Volatility Expected,,,0.70%,retail-sales-257,Retail Sales 
+406240,344,National Core CPI,21-05-20 23:30,Japan,JPY,Moderate Volatility Expected,,0.40%,0.40%,national-core-cpi-344,National Core Consumer Price Index (CPI) 
+406265,870,Capacity Utilization,22-05-20 07:00,Turkey,TRY,Moderate Volatility Expected,,,61.60%,capacity-utilization-870,Capacity Utilization
+405712,653,Retail Sales,22-05-20 08:00,Poland,PLN,Moderate Volatility Expected,,-16.90%,-7.10%,retail-sales-653,Retail Sales 
+406296,856,Core Retail Sales,22-05-20 08:30,United Kingdom,GBP,Moderate Volatility Expected,,-3.50%,-3.70%,core-retail-sales-856,Core Retail Sales 
+406295,857,Core Retail Sales,22-05-20 08:30,United Kingdom,GBP,Moderate Volatility Expected,,-4.70%,-4.10%,core-retail-sales-857,Core Retail Sales 
+406294,731,Retail Sales,22-05-20 08:30,United Kingdom,GBP,Moderate Volatility Expected,,-4.70%,-5.80%,retail-sales-731,Retail Sales 
+406314,1149,Retail Sales,22-05-20 11:00,Mexico,MXN,Moderate Volatility Expected,,,-1.10%,retail-sales-1149,Retail Sales 
+406326,260,Retail Sales,22-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,,0.30%,retail-sales-260,Retail Sales 
+406848,1612,CFTC GBP speculative net positions,22-05-20 19:30,United Kingdom,GBP,Moderate Volatility Expected,,,-12.0K,cftc-gbp-speculative-net-positions-1612,CFTC GBP speculative net positions
+406856,1653,CFTC Crude Oil speculative net positions,22-05-20 19:30,United States,USD,Moderate Volatility Expected,,,530.6K,cftc-crude-oil-speculative-net-positions-1653,CFTC Crude Oil speculative net positions
+406854,1618,CFTC Gold speculative net positions,22-05-20 19:30,United States,USD,Moderate Volatility Expected,,,250.0K,cftc-gold-speculative-net-positions-1618,CFTC Gold speculative net positions
+406846,1959,CFTC Nasdaq 100 speculative net positions,22-05-20 19:30,United States,USD,Moderate Volatility Expected,,,12.8K,cftc-nasdaq-100-speculative-net-positions-1959,CFTC Nasdaq 100 speculative net positions
+406847,1814,CFTC BRL speculative net positions,22-05-20 19:30,Brazil,BRL,Moderate Volatility Expected,,,-11.1K,cftc-brl-speculative-net-positions-1814,CFTC BRL speculative net positions
+406851,1611,CFTC EUR speculative net positions,22-05-20 19:30,Euro Zone,EUR,Moderate Volatility Expected,,,76.3K,cftc-eur-speculative-net-positions-1611, speculative net positions
+406416,738,German GDP,25-05-20 06:00,Germany,EUR,Moderate Volatility Expected,,0.30%,0.30%,german-gdp-738,Gross Domestic Product (GDP) 
+406424,521,German Business Expectations,25-05-20 08:00,Germany,EUR,Moderate Volatility Expected,,75,69.4,german-business-expectations-521,Business Expectations
+406426,520,German Current Assessment,25-05-20 08:00,Germany,EUR,Moderate Volatility Expected,,81,79.5,german-current-assessment-520,Current Assessment
+406662,590,GDP Annualized,25-05-20 10:00,Israel,ILS,Moderate Volatility Expected,,,4.60%,gdp-annualized-590,Gross Domestic Product (GDP) 
+406440,592,Interest Rate Decision,25-05-20 13:00,Israel,ILS,Moderate Volatility Expected,,0.18%,0.10%,interest-rate-decision-592,Interest Rate Decision
+400691,1523,CAGED Net Payroll Jobs,25-05-20 18:00,Brazil,BRL,Moderate Volatility Expected,,70.00K,-307.31K,caged-net-payroll-jobs-1523,CAGED Net Payroll Jobs
+406459,1064,Trade Balance,25-05-20 22:45,New Zealand,NZD,Moderate Volatility Expected,,,"-3,460M",trade-balance-1064,Trade Balance 
+406460,290,Trade Balance,25-05-20 22:45,New Zealand,NZD,Moderate Volatility Expected,,,672M,trade-balance-290,Trade Balance 
+406461,1112,CPI,26-05-20 05:00,Singapore,SGD,Moderate Volatility Expected,,-0.30%,0.30%,cpi-1112,Consumer Price Index (CPI) 
+406465,359,GfK German Consumer Climate,26-05-20 06:00,Germany,EUR,Moderate Volatility Expected,,-1.8,-23.4,gfk-german-consumer-climate-359,GfK Consumer Climate
+406467,98,Employment Level,26-05-20 06:30,Switzerland,CHF,Moderate Volatility Expected,,,5.130M,employment-level-98,Employment Level
+406473,650,Unemployment Rate,26-05-20 08:00,Poland,PLN,Moderate Volatility Expected,,5.70%,5.40%,unemployment-rate-650,Unemployment Rate
+406477,1147,GDP,26-05-20 11:00,Mexico,MXN,Moderate Volatility Expected,,,-1.60%,gdp-1147,Gross Domestic Product (GDP) 
+406476,419,GDP,26-05-20 11:00,Mexico,MXN,Moderate Volatility Expected,,-0.40%,-1.60%,gdp-419,Gross Domestic Product (GDP) 
+406487,329,S&P/CS HPI Composite - 20 n.s.a.,26-05-20 13:00,United States,USD,Moderate Volatility Expected,,3.20%,3.50%,s&p-cs-hpi-composite---20-n.s.a.-329,S&P/CS HPI Composite - 20 n.s.a. 
+406485,555,Retail Sales,26-05-20 13:00,Russia,RUB,Moderate Volatility Expected,,-15.00%,5.60%,retail-sales-555,Retail Sales 
+406490,556,Unemployment Rate,26-05-20 13:00,Russia,RUB,Moderate Volatility Expected,,5.50%,4.70%,unemployment-rate-556,Unemployment Rate
+406494,896,New Home Sales,26-05-20 14:00,United States,USD,Moderate Volatility Expected,,-15.00%,-15.40%,new-home-sales-896,New Home Sales 
+406502,46,Construction Work Done,27-05-20 01:30,Australia,AUD,Moderate Volatility Expected,,-1.00%,-3.00%,construction-work-done-46,Construction Work Done 
+406511,673,Quarterly Unemployment Rate,27-05-20 07:00,Hungary,HUF,Moderate Volatility Expected,,,3.70%,quarterly-unemployment-rate-673,Quarterly Unemployment Rate
+406518,1223,Core CPI,27-05-20 08:00,South Africa,ZAR,Moderate Volatility Expected,,0.70%,0.60%,core-cpi-1223,Core Consumer Price Index (CPI) 
+406521,599,CPI,27-05-20 08:00,South Africa,ZAR,Moderate Volatility Expected,,,0.30%,cpi-599,Consumer Price Index (CPI) 
+406540,27,ANZ Business Confidence,28-05-20 01:00,New Zealand,NZD,Moderate Volatility Expected,,,-66.6,anz-business-confidence-27,ANZ Business Confidence
+406545,252,Private New Capital Expenditure,28-05-20 01:30,Australia,AUD,Moderate Volatility Expected,,0.40%,-2.80%,private-new-capital-expenditure-252,Private New Capital Expenditure 
+406553,968,Spanish HICP,28-05-20 07:00,Spain,EUR,Moderate Volatility Expected,,-0.80%,-0.70%,spanish-hicp-968,Harmonised Index of Consumer Prices (HICP) 
+406585,128,German CPI,28-05-20 12:00,Germany,EUR,Moderate Volatility Expected,,,0.40%,german-cpi-128,Consumer Price Index (CPI) 
+405331,447,Interest Rate Decision,28-05-20 12:00,Poland,PLN,Moderate Volatility Expected,,0.50%,0.50%,interest-rate-decision-447,Interest Rate Decision
+406606,86,Durable Goods Orders,28-05-20 12:30,United States,USD,Moderate Volatility Expected,,,-14.70%,durable-goods-orders-86,Durable Goods Orders 
+406604,343,GDP Price Index,28-05-20 12:30,United States,USD,Moderate Volatility Expected,,1.40%,1.40%,gdp-price-index-343,Gross Domestic Product (GDP) Price Index 
+406598,79,Current Account,28-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,-9.0B,-8.8B,current-account-79,Current Account
+406625,1001,Jobs/applications ratio,28-05-20 23:30,Japan,JPY,Moderate Volatility Expected,,1.4,1.39,jobs-applications-ratio-1001,Jobs/applications ratio
+406624,328,Tokyo Core CPI,28-05-20 23:30,Japan,JPY,Moderate Volatility Expected,,0.10%,-0.10%,tokyo-core-cpi-328,Tokyo Core Consumer Price Index (CPI) 
+406622,1908,CPI Tokyo Ex Food and Energy,28-05-20 23:30,Japan,JPY,Moderate Volatility Expected,,,0.10%,cpi-tokyo-ex-food-and-energy-1908,Tokyo Consumer Price Index (CPI) Excluding Food and Energy
+406632,159,Industrial Production,28-05-20 23:50,Japan,JPY,Moderate Volatility Expected,,-5.20%,-0.30%,industrial-production-159,Industrial Production 
+406631,261,Retail Sales,28-05-20 23:50,Japan,JPY,Moderate Volatility Expected,,-4.70%,-4.60%,retail-sales-261,Retail Sales 
+406633,321,Private Sector Credit,29-05-20 01:30,Australia,AUD,Moderate Volatility Expected,,,1.00%,private-sector-credit-321,Private Sector Credit 
+406656,363,Nationwide HPI,29-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,,-0.30%,0.70%,nationwide-hpi-363,Nationwide HPI 
+406657,850,Nationwide HPI,29-05-20 06:00,United Kingdom,GBP,Moderate Volatility Expected,,2.50%,3.70%,nationwide-hpi-850,Nationwide HPI 
+406652,138,German Retail Sales,29-05-20 06:00,Germany,EUR,Moderate Volatility Expected,,-7.30%,-5.60%,german-retail-sales-138,Retail Sales 
+406664,111,French Consumer Spending,29-05-20 06:45,France,EUR,Moderate Volatility Expected,,-5.50%,-17.90%,french-consumer-spending-111,Consumer Spending 
+406663,113,French GDP,29-05-20 06:45,France,EUR,Moderate Volatility Expected,,-0.10%,-5.80%,french-gdp-113,Gross Domestic Product (GDP) 
+406674,360,KOF Leading Indicators,29-05-20 07:00,Switzerland,CHF,Moderate Volatility Expected,,63.5,63.5,kof-leading-indicators-360,KOF Leading Indicators
+406677,408,GDP,29-05-20 07:00,Turkey,TRY,Moderate Volatility Expected,,5.00%,6.00%,gdp-408,Gross Domestic Product (GDP) 
+406675,451,GDP,29-05-20 07:00,Hungary,HUF,Moderate Volatility Expected,,,4.50%,gdp-451,Gross Domestic Product (GDP) 
+406693,1186,GDP,29-05-20 07:30,Sweden,SEK,Moderate Volatility Expected,,0.80%,,gdp-1186,Gross Domestic Product (GDP) 
+406694,426,GDP,29-05-20 07:30,Sweden,SEK,Moderate Volatility Expected,,0.20%,,gdp-426,Gross Domestic Product (GDP) 
+406702,873,CPI,29-05-20 08:00,Poland,PLN,Moderate Volatility Expected,,-0.20%,0.20%,cpi-873,Consumer Price Index (CPI) 
+406701,445,CPI,29-05-20 08:00,Poland,PLN,Moderate Volatility Expected,,,3.40%,cpi-445,Consumer Price Index (CPI) 
+406728,178,Italian CPI,29-05-20 09:00,Italy,EUR,Moderate Volatility Expected,,-0.30%,0.10%,italian-cpi-178,Consumer Price Index (CPI) 
+406767,434,GDP Quarterly,29-05-20 12:00,India,INR,Moderate Volatility Expected,,4.70%,4.70%,gdp-quarterly-434,Gross Domestic Product (GDP) Quarterly 
+406770,858,GDP,29-05-20 12:00,Brazil,BRL,Moderate Volatility Expected,,0.50%,0.50%,gdp-858,Gross Domestic Product (GDP) 
+406766,413,GDP,29-05-20 12:00,Brazil,BRL,Moderate Volatility Expected,,1.50%,1.70%,gdp-413,Gross Domestic Product (GDP) 
+406787,905,Core PCE Price Index,29-05-20 12:30,United States,USD,Moderate Volatility Expected,,1.60%,1.70%,core-pce-price-index-905,Core PCE Price Index 
+406786,61,Core PCE Price Index,29-05-20 12:30,United States,USD,Moderate Volatility Expected,,-0.10%,-0.10%,core-pce-price-index-61,Core PCE Price Index 
+406788,1650,Goods Trade Balance,29-05-20 12:30,United States,USD,Moderate Volatility Expected,,,-64.38B,goods-trade-balance-1650,Goods Trade Balance
+406785,906,PCE Price index,29-05-20 12:30,United States,USD,Moderate Volatility Expected,,,1.3,pce-price-index-906,PCE Price index (
+406784,904,PCE price index,29-05-20 12:30,United States,USD,Moderate Volatility Expected,,,-0.30%,pce-price-index-904,PCE price index (
+406782,235,Personal Spending,29-05-20 12:30,United States,USD,Moderate Volatility Expected,,,-7.50%,personal-spending-235,Personal Spending 
+406789,1887,Retail Inventories Ex Auto,29-05-20 12:30,United States,USD,Moderate Volatility Expected,,,-0.20%,retail-inventories-ex-auto-1887,Retail Inventories Excluding Auto
+404618,1758,GDP,29-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,,1.47%,gdp-1758,Gross Domestic Product (GDP) 
+406775,1024,GDP,29-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,,0.10%,gdp-1024,Gross Domestic Product (GDP) 
+406774,1025,GDP Annualized,29-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,0.30%,0.30%,gdp-annualized-1025,Gross Domestic Product (GDP) Annualized 
+406779,266,RMPI,29-05-20 12:30,Canada,CAD,Moderate Volatility Expected,,-13.60%,-15.60%,rmpi-266,Raw Materials Price Index (RMPI) 
+406823,38,Chicago PMI,29-05-20 13:45,United States,USD,Moderate Volatility Expected,,38,35.4,chicago-pmi-38,Chicago Purchasing Managers Index (PMI)
+406828,900,Michigan Consumer Expectations,29-05-20 14:00,United States,USD,Moderate Volatility Expected,,,,michigan-consumer-expectations-900,Michigan Consumer Expectations
+406827,320,Michigan Consumer Sentiment,29-05-20 14:00,United States,USD,Moderate Volatility Expected,,68,71,michigan-consumer-sentiment-320,Michigan Consumer Sentiment
+406844,1619,CFTC S&P 500 speculative net positions,29-05-20 19:30,United States,USD,Moderate Volatility Expected,,,-222.4K,cftc-s&p-500-speculative-net-positions-1619,CFTC S&P 500 speculative net positions
+406841,1615,CFTC AUD speculative net positions,29-05-20 19:30,Australia,AUD,Moderate Volatility Expected,,,-33.5K,cftc-aud-speculative-net-positions-1615,CFTC AUD speculative net positions
+406843,1625,CFTC RUB speculative positions,29-05-20 19:30,Russia,RUB,Moderate Volatility Expected,,,4.1K,cftc-rub-speculative-positions-1625,CFTC RUB speculative positions
+406865,1913,Chinese Composite PMI,31-05-20 01:00,China,CNY,Moderate Volatility Expected,,,53.4,chinese-composite-pmi-1913,Composite Purchasing Managers' Index (PMI)
+406866,831,Non-Manufacturing PMI,31-05-20 01:00,China,CNY,Moderate Volatility Expected,,,53.2,non-manufacturing-pmi-831,Non-Manufacturing Purchasing Managers Index (PMI)
+406870,203,AIG Manufacturing Index,31-05-20 22:30,Australia,AUD,Moderate Volatility Expected,,,35.8,aig-manufacturing-index-203,AIG Manufacturing Index
+406871,32,Capital Spending,31-05-20 23:50,Japan,JPY,Moderate Volatility Expected,,,-3.50%,capital-spending-32,Capital Spending 
+406884,1091,Core Inflation,01-06-20 04:00,Indonesia,IDR,Moderate Volatility Expected,,2.90%,2.85%,core-inflation-1091,Core Inflation 
+406885,1074,Inflation,01-06-20 04:00,Indonesia,IDR,Moderate Volatility Expected,,0.17%,0.08%,inflation-1074,Inflation 
+406892,1630,Markit Manufacturing PMI,01-06-20 06:00,Russia,RUB,Moderate Volatility Expected,,,31.3,markit-manufacturing-pmi-1630,Markit Manufacturing Purchasing Managers Index (PMI)
+406900,667,Spanish Manufacturing PMI,01-06-20 07:15,Spain,EUR,Moderate Volatility Expected,,34,30.8,spanish-manufacturing-pmi-667,Manufacturing Purchasing Managers Index (PMI)
+406905,832,Italian Manufacturing PMI,01-06-20 07:45,Italy,EUR,Moderate Volatility Expected,,,31.1,italian-manufacturing-pmi-832,Manufacturing Purchasing Managers Index (PMI)
+406918,829,Manufacturing PMI,01-06-20 13:45,United States,USD,Moderate Volatility Expected,,,36.9,manufacturing-pmi-829,Manufacturing Purchasing Managers Index (PMI)
+406921,1046,ISM Manufacturing Employment,01-06-20 14:00,United States,USD,Moderate Volatility Expected,,37,27.5,ism-manufacturing-employment-1046,ISM Manufacturing Employment
+406941,23,Building Consents,01-06-20 22:45,New Zealand,NZD,Moderate Volatility Expected,,,-21.30%,building-consents-23,Building Consents 
+406953,467,CPI,01-06-20 23:00,South Korea,KRW,Moderate Volatility Expected,,,0.10%,cpi-467,Consumer Price Index (CPI) 
+406948,40,Company Gross Operating Profits,02-06-20 01:30,Australia,AUD,Moderate Volatility Expected,,-3.50%,-3.50%,company-gross-operating-profits-40,Company Gross Operating Profits 
+406947,80,Current Account,02-06-20 01:30,Australia,AUD,Moderate Volatility Expected,,2.3B,1.0B,current-account-80,Current Account
+406952,259,Retail Sales,02-06-20 06:30,Switzerland,CHF,Moderate Volatility Expected,,,-5.60%,retail-sales-259,Retail Sales 
+406964,278,procure.ch PMI,02-06-20 07:30,Switzerland,CHF,Moderate Volatility Expected,,34.6,40.7,procure.ch-pmi-278,procure.ch Purchasing Managers Index (PMI)
+406965,340,French Manufacturing PMI,02-06-20 07:50,France,EUR,Moderate Volatility Expected,,31.5,31.5,french-manufacturing-pmi-340,Manufacturing Purchasing Managers Index (PMI)
+406967,201,Manufacturing PMI,02-06-20 08:00,Euro Zone,EUR,Moderate Volatility Expected,,33.6,33.6,manufacturing-pmi-201,Eurozone Manufacturing Purchasing Managers Index (PMI)
+406980,1912,Services PMI,03-06-20 00:30,Japan,JPY,Moderate Volatility Expected,,,21.5,services-pmi-1912,Services Purchasing Managers' Index (PMI)
+406986,22,Building Approvals,03-06-20 01:30,Australia,AUD,Moderate Volatility Expected,,-15.00%,-4.00%,building-approvals-22,Building Approvals 
+406982,1013,GDP,03-06-20 01:30,Australia,AUD,Moderate Volatility Expected,,1.90%,2.20%,gdp-1013,Gross Domestic Product (GDP) 
+406989,596,Caixin Services PMI,03-06-20 01:45,China,CNY,Moderate Volatility Expected,,,44.4,chinese-caixin-services-pmi-596,Caixin Services Purchasing Managers Index (PMI)
+406994,122,GDP,03-06-20 05:45,Switzerland,CHF,Moderate Volatility Expected,,0.20%,0.30%,gdp-122,Gross Domestic Product (GDP) 
+406993,957,GDP,03-06-20 05:45,Switzerland,CHF,Moderate Volatility Expected,,1.30%,1.50%,gdp-957,Gross Domestic Product (GDP) 
+406995,1629,Markit Services PMI,03-06-20 06:00,Russia,RUB,Moderate Volatility Expected,,,12.2,markit-services-pmi-1629,Markit Services Purchasing Managers Index (PMI)
+407000,871,CPI,03-06-20 07:00,Turkey,TRY,Moderate Volatility Expected,,10.88%,10.94%,cpi-871,Consumer Price Index (CPI) 
+406998,611,CPI,03-06-20 07:00,Turkey,TRY,Moderate Volatility Expected,,0.60%,0.85%,cpi-611,Consumer Price Index (CPI) 
+407004,668,Spanish Services PMI,03-06-20 07:15,Spain,EUR,Moderate Volatility Expected,,10,7.1,spanish-services-pmi-668,Services Purchasing Managers Index (PMI)
+407006,833,Italian Services PMI,03-06-20 07:45,Italy,EUR,Moderate Volatility Expected,,9,10.8,italian-services-pmi-833,Services Purchasing Managers Index (PMI)
+407007,142,German Unemployment Rate,03-06-20 07:55,Germany,EUR,Moderate Volatility Expected,,5.20%,5.80%,german-unemployment-rate-142,Unemployment Rate
+407011,1562,IPC-Fipe Inflation Index,03-06-20 08:00,Brazil,BRL,Moderate Volatility Expected,,,-0.30%,ipc-fipe-inflation-index-1562,IPC-Fipe Inflation Index 
+407016,299,Unemployment Rate,03-06-20 09:00,Euro Zone,EUR,Moderate Volatility Expected,,7.70%,7.40%,unemployment-rate-299,Eurozone Unemployment Rate
+407029,414,Industrial Production,03-06-20 12:00,Brazil,BRL,Moderate Volatility Expected,,-1.60%,-3.80%,industrial-production-414,Industrial Production 
+407032,189,Labor Productivity,03-06-20 12:30,Canada,CAD,Moderate Volatility Expected,,,-0.10%,labor-productivity-189,Labor Productivity 
+407036,1492,Markit Composite PMI,03-06-20 13:45,United States,USD,Moderate Volatility Expected,,,27.4,markit-composite-pmi-1492,Markit Composite Purchasing Managers Index (PMI)
+407037,1062,Services PMI,03-06-20 13:45,United States,USD,Moderate Volatility Expected,,,27,services-pmi-1062,Services Purchasing Managers Index (PMI)
+407045,100,Factory Orders,03-06-20 14:00,United States,USD,Moderate Volatility Expected,,-9.70%,-10.30%,factory-orders-100,Factory Orders 
+407041,1048,ISM Non-Manufacturing Employment,03-06-20 14:00,United States,USD,Moderate Volatility Expected,,,30,ism-non-manufacturing-employment-1048,ISM Non-Manufacturing Employment
+407059,71,CPI,04-06-20 06:30,Switzerland,CHF,Moderate Volatility Expected,,-0.10%,-0.40%,cpi-71,Consumer Price Index (CPI) 
+407063,341,French Services PMI,04-06-20 07:50,France,EUR,Moderate Volatility Expected,,10.4,10.4,french-services-pmi-341,Services Purchasing Managers Index (PMI)
+407066,140,German Services PMI,04-06-20 07:55,Germany,EUR,Moderate Volatility Expected,,15.9,15.9,german-services-pmi-140,Services Purchasing Managers Index (PMI)
+407068,1491,Markit Composite PMI,04-06-20 08:00,Euro Zone,EUR,Moderate Volatility Expected,,13.5,13.5,markit-composite-pmi-1491,Eurozone Markit Composite Purchasing Managers Index (PMI)
+407067,272,Services PMI,04-06-20 08:00,Euro Zone,EUR,Moderate Volatility Expected,,11.7,11.7,services-pmi-272,Eurozone Services Purchasing Managers Index (PMI)
+406610,228,Nonfarm Productivity,04-06-20 12:30,United States,USD,Moderate Volatility Expected,,1.40%,-2.50%,nonfarm-productivity-228,Nonfarm Productivity 
+406611,303,Unit Labor Costs,04-06-20 12:30,United States,USD,Moderate Volatility Expected,,,4.80%,unit-labor-costs-303,Unit Labor Costs 
+406796,528,Private Nonfarm Payrolls,05-06-20 12:30,United States,USD,Moderate Volatility Expected,,"-21,050K","-19,520K",private-nonfarm-payrolls-528,Private Nonfarm Payrolls
+402605,230,OPEC Meeting,10-06-20 10:00,United States,USD,Moderate Volatility Expected,,,,opec-meeting-230,OPEC Meeting
+403592,1648,EU Finance Ministers Meeting,12-06-20 10:00,Euro Zone,EUR,Moderate Volatility Expected,,,,eu-finance-ministers-meeting-1648,Finance Ministers Meeting
+406840,1614,CFTC JPY speculative net positions,12-06-20 19:30,Japan,JPY,Moderate Volatility Expected,,,27.2K,cftc-jpy-speculative-net-positions-1614,CFTC JPY speculative net positions
+403668,165,BoJ Interest Rate Decision,16-06-20 05:58,Japan,JPY,Moderate Volatility Expected,,,-0.10%,boj-interest-rate-decision-165,Interest Rate Decision
+406561,444,Interest Rate Decision,18-06-20 08:00,Norway,NOK,Moderate Volatility Expected,,,,interest-rate-decision-444,Interest Rate Decision
+400212,1628,Monetary Policy Meeting Minutes,26-11-20 15:00,Mexico,MXN,Moderate Volatility Expected,,,,monetary-policy-meeting-minutes-1628,Monetary Policy Meeting Minutes
+401390,1764,WASDE Report,10-12-20 17:00,United States,USD,Moderate Volatility Expected,,,,wasde-report-1764,Department of Agriculture (USDA) World Agricultural Supply and Demand Estimates Report
+401236,1673,OPEC Monthly Report,14-12-20 11:00,United States,USD,Moderate Volatility Expected,,,,opec-monthly-report-1673,OPEC Monthly Report
+400219,423,Interest Rate Decision,17-12-20 19:00,Mexico,MXN,Moderate Volatility Expected,,,,interest-rate-decision-423,Interest Rate Decision
+403770,1804,CBRT Monetary Policy Meeting Minutes,31-12-20 11:00,Turkey,TRY,Moderate Volatility Expected,,,,cbrt-monetary-policy-meeting-minutes-1804,Monetary Policy Meeting Minutes

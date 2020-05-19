@@ -1,0 +1,154 @@
+prefix,friendly_name,event_type_ids
+Central Bank Inflation and GDP Projection,['Central Bank Inflation and GDP Projection'],1819
+Brexit,['Brexit'],1850
+European Parliament Elections,['European Parliament Elections'],1840
+Winner of Conservative Leadership Announced,['Winner of Conservative Leadership Announced'],1895
+Late Liquidity Window Rate,['Late Liquidity Window Rate'],1756
+IEA,"['IEA', 'International Energy Agency', 'International Energy Agency (IEA)']",1674
+CPIH,"['CPIH', 'Owner Occupiers’ Housing Costs', 'Owner Occupiers’ Housing Costs (CPIH)']",1798
+Jackson Hole Symposium,['Jackson Hole Symposium'],1677
+PCE Deflator,['PCE Deflator'],1771
+PCE Prices ,['PCE Prices '],1772
+Capital Goods Ship Non Defense ex Air ,['Capital Goods Ship Non Defense ex Air '],1751
+Supreme Court Decision,['Supreme Court Decision'],1962
+Financial Stability Board Meeting Minutes,['Financial Stability Board Meeting Minutes'],1824
+Canadian Federal Election,['Canadian Federal Election'],1964
+Inflation Report,['Inflation Report'],1805
+speaks,['speaks'],573
+Spanish General Election,['Spanish General Election'],1841
+BRICS Summit,['BRICS Summit'],1966
+ECB,"['ECB', 'the Supervisory Board', 'the Supervisory Board (ECB)']",1866 1865 
+US Treasury Department Report,['US Treasury Department Report'],1859
+Core Retail Sales ,['Core Retail Sales '],64
+RBNZ Financial Stability Report,['RBNZ Financial Stability Report'],1809
+FFR,"['FFR', 'Federal Funds Rate', 'Federal Funds Rate (FFR)']",1941 1943  1942 
+Euro Summit,['Euro Summit'],1644
+BCB National Monetary Council Meeting,['BCB National Monetary Council Meeting'],1786
+Financial Stability Board Meeting,['Financial Stability Board Meeting'],1823
+Financial Stability Report,['Financial Stability Report'],1806 1826 
+Reserve Requirement Ratio,['Reserve Requirement Ratio'],1084
+World Economic Forum Annual Meetings,['World Economic Forum Annual Meetings'],1969
+Gross Mortgage Approvals,['Gross Mortgage Approvals'],9
+ Union Budget,[' Union Budget'],1970
+Bank Quarterly Business Confidence,['Bank Quarterly Business Confidence'],384
+Monetary and Credit Information Review,['Monetary and Credit Information Review'],1829
+BSI Large Manufacturing Conditions,['BSI Large Manufacturing Conditions'],21
+Eurozone Wages ,['Eurozone Wages '],1577
+Current Account ,['Current Account '],1177 82 
+LTRO,"['LTRO', 'Long Term Refinancing Operation', 'Long Term Refinancing Operation (LTRO)']",1690
+Tankan All Big Industry CAPEX,['Tankan All Big Industry CAPEX'],1515
+Tankan Big Manufacturing Outlook Index,['Tankan Big Manufacturing Outlook Index'],1517
+10-Year Obligacion Auction,['10-Year Obligacion Auction'],586
+Business Outlook Survey,['Business Outlook Survey'],1153
+Institute of Economic Research Business Confidence,['Institute of Economic Research Business Confidence'],229
+Labour Productivity,['Labour Productivity'],1937
+Eurogroup Meetings,['Eurogroup Meetings'],1643
+Financial Stability Review,['Financial Stability Review'],358
+BOC,"['BOC', '', ' (BOC)']",1710
+Beige Book,['Beige Book'],10
+BOE Credit Conditions Survey,['BOE Credit Conditions Survey'],1858
+15-Year Obligacion Auction,['15-Year Obligacion Auction'],1679
+Tertiary Industry Activity Index ,['Tertiary Industry Activity Index '],282
+New Housing Price Index ,['New Housing Price Index '],223
+MPC,"['MPC', 'Monetary Policy Committee', 'Monetary Policy Committee (MPC)']",1718 1701  1782  1134  1135  1699  1720  1719 
+Jobseekers Total,['Jobseekers Total'],1623
+10-Year Bund Auction,['10-Year Bund Auction'],580
+10-Year BTP Auction,['10-Year BTP Auction'],583
+Quarterly Unemployment Rate,['Quarterly Unemployment Rate'],591
+Employment Cost Index ,['Employment Cost Index '],331
+SECO Consumer Climate,['SECO Consumer Climate'],362
+Unemployment Change,['Unemployment Change'],830
+European Union Economic Forecasts,['European Union Economic Forecasts'],1696
+GlobalDairyTrade Price Index,['GlobalDairyTrade Price Index'],1654
+Factory Orders ,['Factory Orders '],130
+Inflation Expectations ,['Inflation Expectations '],342
+Imports ,['Imports '],1763 867 
+BoE,['BoE'],846 847  848  665 
+Non-Farm Payrolls ,['Non-Farm Payrolls '],339
+Halifax House Price Index ,['Halifax House Price Index '],145 844 
+Household Spending ,['Household Spending '],1191 361 
+an IPCA Inflation Index Seasonally Adjusted ,['an IPCA Inflation Index Seasonally Adjusted '],1883
+Average Hourly Earnings ,['Average Hourly Earnings '],1777 8 
+Participation Rate,['Participation Rate'],1581
+Quarterly 3-Month Jobless Average,['Quarterly 3-Month Jobless Average'],614
+New Loans,['New Loans'],1060
+M1 Money Supply ,['M1 Money Supply '],884
+BCB Focus Market Readout,['BCB Focus Market Readout'],1784
+Bank Business Confidence,['Bank Business Confidence'],217
+10-Year JGB Auction,['10-Year JGB Auction'],725
+10-Year Note Auction,['10-Year Note Auction'],571
+Federal Budget Balance,['Federal Budget Balance'],369
+Westpac Consumer Sentiment,['Westpac Consumer Sentiment'],357 364 
+Wage Price Index ,['Wage Price Index '],336
+Monetary Policy,['Monetary Policy'],1832 1817  1833  1825  210  335  400 
+Business Investment ,['Business Investment '],30
+Seevol Cushing Storage Report,['Seevol Cushing Storage Report'],1974
+RICS House Price Balance,['RICS House Price Balance'],264
+Full Employment Change,['Full Employment Change'],1052
+WPI,"['WPI', 'Wholesale Price Index', 'Wholesale Price Index (WPI)']",564
+European Central Bank Economic Bulletin,['European Central Bank Economic Bulletin'],318
+Export Price Index ,['Export Price Index '],892
+Import Price Index ,['Import Price Index '],153
+Manufacturing Sales ,['Manufacturing Sales '],207
+Speaks,['Speaks'],1732 1730  1706  1587  1728  1737  1733  1770  1703  1729  1142  1734  1721  1702  1727  1789  1725  1769  1794  1141  1722  834  392  1032  1837  1717  1790 
+FOMC,"['FOMC', 'Federal Open Market Committee', 'Federal Open Market Committee (FOMC)']",1835 1802  1651  1803  839  1664  1585  1712  838  1666  1736  1336  1665  1662 
+Fixed Asset Investment ,['Fixed Asset Investment '],460
+YTD,"['YTD', 'Year to Date', 'Year to Date (YTD)']",1916
+Press Conference,['Press Conference'],1816 1973  1752 
+USD,"['USD', 'Trade Balance', 'Trade Balance (USD)']",466 969  1394 
+Budget Balance,['Budget Balance'],869
+NY Empire State Manufacturing Index,['NY Empire State Manufacturing Index'],323
+Foreign Securities Purchases,['Foreign Securities Purchases'],109
+Business Inventories ,['Business Inventories '],29
+Baker Hughes Oil Rig Count,['Baker Hughes Oil Rig Count'],1652
+Baker Hughes Total Rig Count,['Baker Hughes Total Rig Count'],1810
+TIC Net Long-Term Transactions,['TIC Net Long-Term Transactions'],283
+Home Loans ,['Home Loans '],146
+Employment Change 3M/3M,['Employment Change 3M/3M'],1743
+ZEW Current Conditions,['ZEW Current Conditions'],1036
+Eurozone ZEW Economic Sentiment,['Eurozone ZEW Economic Sentiment'],310
+Building Permits ,['Building Permits '],24 885 
+Housing Starts,['Housing Starts'],150 898  151 
+PPI,"['PPI', 'Producer Price Index', 'Producer Price Index (PPI)']",239 1164  464  62  240  243  242  137 
+Wholesale Sales ,['Wholesale Sales '],306
+Economic Activity ,['Economic Activity '],437
+Exports ,['Exports '],1762 595  995 
+CBI Industrial Trends Orders,['CBI Industrial Trends Orders'],34
+Overnight Lending Rate,['Overnight Lending Rate'],1067
+Philadelphia Fed Employment,['Philadelphia Fed Employment'],908
+Capacity Utilization,['Capacity Utilization'],870
+CFTC GBP speculative net positions,['CFTC GBP speculative net positions'],1612
+Crude Oil,['Crude Oil'],656 1657  1653 
+CFTC Gold speculative net positions,['CFTC Gold speculative net positions'],1618
+CFTC Nasdaq 100 speculative net positions,['CFTC Nasdaq 100 speculative net positions'],1959
+CFTC BRL speculative net positions,['CFTC BRL speculative net positions'],1814
+ speculative net positions,[' speculative net positions'],1611
+Business Expectations,['Business Expectations'],521
+Current Assessment,['Current Assessment'],520
+CAGED Net Payroll Jobs,['CAGED Net Payroll Jobs'],1523
+GfK Consumer Climate,['GfK Consumer Climate'],359
+Employment Level,['Employment Level'],98
+Home Sales,['Home Sales'],377 891  896 
+Construction Work Done ,['Construction Work Done '],46
+Unemployment Rate,['Unemployment Rate'],411 295  959  296  301  302  1793  297  650  556  673 
+ANZ Business Confidence,['ANZ Business Confidence'],27
+Private New Capital Expenditure ,['Private New Capital Expenditure '],252
+HICP,"['HICP', 'Index of Consumer Prices', 'Index of Consumer Prices (HICP)']",940 968 
+Interest Rate,['Interest Rate'],1117 1089  1624  427  1106  415  478  604  592  447 
+Durable Goods Orders ,['Durable Goods Orders '],86
+Current Account,['Current Account'],81 83  77  994  79 
+Jobs/applications ratio,['Jobs/applications ratio'],1001
+Industrial Production ,['Industrial Production '],440 135  158  160  1755  161  159 
+Private Sector Credit ,['Private Sector Credit '],321
+HPI,"['HPI', 'House Price Index', 'House Price Index (HPI)']",147 329  363  850 
+Retail Sales ,['Retail Sales '],441 255  1058  18  861  416  1847  1848  257  653  856  857  731  1149  260  555  261  138 
+Consumer Spending ,['Consumer Spending '],111
+KOF Leading Indicators,['KOF Leading Indicators'],360
+Core PCE Price Index ,['Core PCE Price Index '],905 61 
+Trade Balance,['Trade Balance'],289 286  285  291  141  284  849  287  504  1005  1064  290  1650 
+RMPI,"['RMPI', 'Raw Materials Price Index', 'Raw Materials Price Index (RMPI)']",266
+GDP,"['GDP', 'Gross Domestic Product', 'Gross Domestic Product (GDP)']",1750 446  600  439  1853  1797  868  402  407  1072  443  507  226  879  925  120  1053  476  970  738  590  1147  419  343  113  408  451  1186  426  434  858  413  1758  1024  1025  1013  122  957 
+CPI,"['CPI', 'Consumer Price Index', 'Consumer Price Index (CPI)']",1063 1766  1011  293  1851  800  1192  417  406  1180  410  1165  430  643  743  459  973  736  69  1185  425  961  436  112  589  1101  727  317  928  1020  70  344  1112  1223  599  128  328  1908  873  445  178  467  871  611  71 
+PMI,"['PMI', 'Purchasing Managers Index', 'Purchasing Managers Index (PMI)']",338 38  1913  831  1630  667  832  829  278  340  201  1912  596  1629  668  833  1492  1062  341  140  1491  272 
+USDA,"['USDA', 'Department of Agriculture', 'Department of Agriculture (USDA)']",1764
+,"['', '', ' ()']",906 904  235  1887  900  320  1619  1615  1625  203  32  1091  1074  1046  23  40  80  259  22  142  1562  299  414  189  100  1048  228  303  528  230  1648  1614  165  444  1628  1673  423  1804 

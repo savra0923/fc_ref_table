@@ -20,18 +20,42 @@ def get_dis(row):
     print('{}'.format(row.time))
     return info
 
+def row_setup(prefix, friendly_names, event_type_ids):
+    parsed_row = {}
+    parsed_row['prefix'] = prefix
+    parsed_row['event_type_ids'] =  str(int(event_type_ids))
+    parsed_row['friendly_name'] = [friendly_names]
+
+    return parsed_row
+
+def list_parse(event_list, new_event):
+    lister = ''
+    for elem in event_list.values:
+        lister = lister + elem + ' '
+
+    lister = lister + str(int(new_event)) + ' '
+    return lister
+
+def friendly_update(parsed_row, title):
+    pref_len = len(parsed_row['prefix'])
+    if title.count('(') > 1:
+        title = title[title.find(')') + 2:]
+    title = title[:title.find('(')]
+    print('title: {}'.format(title))
+    words = title.split(' ')
+    words = ' '.join(words[-(pref_len + 1):-1])
+    return parsed_row['friendly_name'] + [words, words + ' (' + parsed_row['prefix'] + ')']
+
 def get_friendly(df):
+
     prefix_bank=pd.read_csv("known_prefixs.csv")
     prefix_bank= prefix_bank['prefixes'].values.tolist()
-    countires_list=pd.read_csv("countries.csv")
-    countires_list=countires_list['country'].values.tolist()
 
-    parsed_data = []
     new_df=pd.DataFrame(columns=['prefix', 'friendly_name', 'event_type_ids'])
 
     for index, row in df.iterrows():
         title = row['title']
-        #print(title)
+        print(title)
         parsed_row = {}
 
         if '(' not in title:
@@ -41,91 +65,33 @@ def get_friendly(df):
                     not_in_bank_flag=False
                     parsed_row = new_df.loc[new_df['prefix'] == word].copy()
                     if parsed_row.empty:
-                        parsed_row = {}
-                        parsed_row['prefix'] = word
-                        parsed_row['event_type_ids'] = str(int(row['event_type_id']))
-                        parsed_row['friendly_name'] = [word]
+                        parsed_row = row_setup(word, word, row['event_type_id'])
                     else:
-                        lister = ''
-                        for elem in parsed_row['event_type_ids'].values:
-                            lister = lister + elem + ' '
-
-                        lister = lister + str(int(row['event_type_id'])) + ' '
-                        parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
+                        parsed_row['event_type_ids'] = list_parse(parsed_row['event_type_ids'], row['event_type_id'])
             if not_in_bank_flag:
-                for word in countires_list:
-                    if title.find(word) != -1:
-                        title=title[title.find(word)+len(word)+1:]
-
-                print('title: {}'.format(title))
-                if(title.find('MoM') != -1 or title.find('QoQ') != -1 or title.find('YoY') != -1):
-                    print('mew_title: {}'.format(title))
-
                 pref = title
                 if title not in prefix_bank:
                     prefix_bank.append(title)
-                    parsed_row['prefix'] = pref
-                    parsed_row['event_type_ids'] = str(int(row['event_type_id']))
-                    parsed_row['friendly_name'] = [pref]
+                    parsed_row = row_setup(pref, pref, row['event_type_id'])
                 else:
                     parsed_row = new_df.loc[new_df['prefix'] == pref].copy()
-                    parsed_row['event_type_ids'] = str(int(row['event_type_id']))
-                    lister = ''
-                    for elem in parsed_row['event_type_ids'].values:
-                        lister = lister + elem + ' '
-
-                    lister = lister + str(int(row['event_type_id'])) + ' '
-                    parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
-                    parsed_row['friendly_name'] = [pref]
-
-        elif '(' in title:
+                    parsed_row['event_type_ids'] = list_parse(parsed_row['event_type_ids'], row['event_type_id'])
+        else:
+            can_skip=False
             for word in title.split(' '):
                 if '(' in word:
                     w= word.replace('(', '').replace(')', '')
-                    if w not in prefix_bank:
+                    print('word: {}'.format(w))
+                    if w == 'Barrel':
+                        w= 'Crude Oil'
+                    if w not in prefix_bank and can_skip == False:
                         prefix_bank.append(w)
-                        parsed_row['prefix']= word.replace('(', '').replace(')', '')
-                        parsed_row['event_type_ids'] = str(int(row['event_type_id']))
-                        parsed_row['friendly_name'] = [word.replace('(', '').replace(')', '')]
-
-                        pref_len = len(parsed_row['prefix'])
-                        if title.count('(') > 1:
-                            title = title[title.find(')')+2:]
-                        title=title[:title.find('(')]
-                        print('title: {}'.format(title))
-                        words = title.split(' ')
-                        words = ' '.join(words[-(pref_len+1):-1])
-                        parsed_row['friendly_name'] = parsed_row['friendly_name'] + [words, words + ' (' + parsed_row['prefix'] + ')']
+                        parsed_row = row_setup(word.replace('(', '').replace(')', ''), word.replace('(', '').replace(')', ''), row['event_type_id'])
+                        parsed_row['friendly_name']=friendly_update(parsed_row, title)
                     else:
                         parsed_row=new_df.loc[new_df['prefix']==w].copy()
-                        lister=''
-                        for elem in parsed_row['event_type_ids'].values:
-                            lister= lister +elem+' '
-
-                        lister = lister + str(int(row['event_type_id']))+' '
-                        parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
-        else:
-            print('title: {}'.format(title))
-            for word in countires_list:
-                if title.find(word) != -1:
-                    print(word)
-
-            pref = title.split(' ', 1)[1]
-            if title not in prefix_bank:
-                prefix_bank.append(title)
-                parsed_row['prefix'] = pref
-                parsed_row['event_type_ids'] = str(int(row['event_type_id']))
-                parsed_row['friendly_name'] = [pref]
-            else:
-                parsed_row = new_df.loc[new_df['prefix'] == pref].copy()
-                parsed_row['event_type_ids'] = str(int(row['event_type_id']))
-                lister = ''
-                for elem in parsed_row['event_type_ids'].values:
-                    lister = lister + elem + ' '
-
-                lister = lister + str(int(row['event_type_id'])) + ' '
-                parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
-                parsed_row['friendly_name'] = [pref]
+                        parsed_row['event_type_ids'] = list_parse(parsed_row['event_type_ids'], row['event_type_id'])
+                    can_skip = True
 
         new_df = new_df.append(parsed_row, ignore_index=True)
         new_df = new_df.drop_duplicates(subset=['prefix'], keep='last')
@@ -148,6 +114,23 @@ def get_title(row):
     info=''.join(info)
 
     info=info.replace('\r','').replace('\n','').replace('\t','')
+    print(info)
+
+    countires_list = pd.read_csv("countries.csv")
+    countires_list = countires_list['country'].values.tolist()
+    l= ['MoM', 'QoQ', 'YoY']
+
+    for word in l:
+        if info.find(word) != -1:
+            info= info[:info.find(word)]
+            print('title: {}'.format(info))
+
+    for word in countires_list:
+        if info.find(word) != -1:
+            info = info[info.find(word) + len(word) + 1:]
+
+    print('title: {}'.format(info))
+
     print('{}'.format(row['time']))
     return info
 
@@ -184,9 +167,8 @@ def no_parantasis(row):
     return words
 
 def pre_processing(df):
-    months=['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep','Dec'] # i don't need it
-
-    df= df[df.impact!='Holiday']
+    df= df[df.impact=='Holiday']
+    #df= df[df.impact=='Moderate Volatility Expected']
     df= df.drop_duplicates(subset=['event_type_id'], keep='last')
     df['event_name'] = df.apply(no_parantasis, axis='columns')
     df['urls'] = df.apply(get_url_parts, axis='columns')
@@ -198,11 +180,11 @@ if __name__ == "__main__":
 
     #df= investing_scraper.get_events_year_range(2019,2020)
 
-    #loader_fc = pd.read_csv("yearsHighV.csv")
+    #loader_fc = pd.read_csv("yearsTest2.csv")
     #print(loader_fc.size)
     #fc= pre_processing(loader_fc)
-    #fc.to_csv('FullTitles.csv', index=False)
-    fc=pd.read_csv("FullTitles.csv")
+    #fc.to_csv('FullTitlesMod.csv', index=False)
+    fc=pd.read_csv("FullTitles-2.csv")
     print(fc.size)
     fc=get_friendly(fc)
     fc.to_csv('trying.csv', index=False)

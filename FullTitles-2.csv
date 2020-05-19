@@ -1,120 +1,120 @@
 event_id,event_type_id,event_name,time,country,currency,impact,actual,forecast,previous,urls,title
-380153,1834.0,UK Government No Confidence Vote,2019-01-16 19:00:00,United Kingdom,GBP,High Volatility Expected,,,,uk-government-no-confidence-vote-1834,UK Government No Confidence Vote
-382825,1646.0,Annual Budget Release,2019-03-13 12:30:00,United Kingdom,GBP,High Volatility Expected,,,,annual-budget-release-1646,United Kingdom Annual Budget Release
-382409,1740.0,Spring Forecast Statement,2019-03-13 12:30:00,United Kingdom,GBP,High Volatility Expected,,,,spring-forecast-statement-1740,United Kingdom Spring Forecast Statement
-382818,1842.0,UK Parliament vote on No Brexit Deal,2019-03-13 19:00:00,United Kingdom,GBP,High Volatility Expected,,,,uk-parliament-vote-on-no-brexit-deal-1842,UK Parliament vote on No Brexit Deal
-383417,1846.0,UK Parliament vote on Extension of Brexit Date,2019-03-14 17:00:00,United Kingdom,GBP,High Volatility Expected,,,,uk-parliament-vote-on-extension-of-brexit-date-1846,UK Parliament vote on Extension of Brexit Date
-383580,1647.0,EU Leaders Summit,2019-03-22 10:00:00,Euro Zone,EUR,High Volatility Expected,,,,eu-leaders-summit-1647,EU Leaders Summit
-384172,1815.0,UK Parliament vote on Brexit deal,2019-03-29 19:00:00,United Kingdom,GBP,High Volatility Expected,,,,uk-parliament-vote-on-brexit-deal-1815,UK Parliament vote on Brexit deal
-386932,1649.0,Inflation Report Hearings,2019-06-26 09:15:00,United Kingdom,GBP,High Volatility Expected,,,,inflation-report-hearings-1649,U.K. Inflation Report Hearings
-389376,1876.0,PBOC Gov Yi speaks,2019-07-01 07:00:00,China,CNY,High Volatility Expected,,,,pboc-gov-yi-speaks-1876,People's Bank of China's Governor Yi Gang Speaks
-389515,1836.0,Fed Monetary Policy Report,2019-07-05 15:00:00,United States,USD,High Volatility Expected,,,,fed-monetary-policy-report-1836,U.S. Federal Reserve Monetary Policy Report
-390537,1695.0,U.K. Prime Minister May Speaks,2019-07-24 16:00:00,United Kingdom,GBP,High Volatility Expected,,,,u.k.-prime-minister-may-speaks-1695,U.K. Prime Minister May Speaks
-394496,1921.0,U.K. Prime Minister Johnson Speaks,2019-10-03 10:30:00,United Kingdom,GBP,High Volatility Expected,,,,u.k.-prime-minister-johnson-speaks-1921,U.K. Prime Minister Boris Johnson Speaks
+380153,1834.0,UK Government No Confidence Vote,2019-01-16 19:00:00,United Kingdom,GBP,High Volatility Expected,,,,uk-government-no-confidence-vote-1834,Government No Confidence Vote
+382825,1646.0,Annual Budget Release,2019-03-13 12:30:00,United Kingdom,GBP,High Volatility Expected,,,,annual-budget-release-1646,Annual Budget Release
+382409,1740.0,Spring Forecast Statement,2019-03-13 12:30:00,United Kingdom,GBP,High Volatility Expected,,,,spring-forecast-statement-1740,Spring Forecast Statement
+382818,1842.0,UK Parliament vote on No Brexit Deal,2019-03-13 19:00:00,United Kingdom,GBP,High Volatility Expected,,,,uk-parliament-vote-on-no-brexit-deal-1842,Parliament vote on No Brexit Deal
+383417,1846.0,UK Parliament vote on Extension of Brexit Date,2019-03-14 17:00:00,United Kingdom,GBP,High Volatility Expected,,,,uk-parliament-vote-on-extension-of-brexit-date-1846,Parliament vote on Extension of Brexit Date
+383580,1647.0,EU Leaders Summit,2019-03-22 10:00:00,Euro Zone,EUR,High Volatility Expected,,,,eu-leaders-summit-1647,Leaders Summit
+384172,1815.0,UK Parliament vote on Brexit deal,2019-03-29 19:00:00,United Kingdom,GBP,High Volatility Expected,,,,uk-parliament-vote-on-brexit-deal-1815,Parliament vote on Brexit deal
+386932,1649.0,Inflation Report Hearings,2019-06-26 09:15:00,United Kingdom,GBP,High Volatility Expected,,,,inflation-report-hearings-1649,Inflation Report Hearings
+389376,1876.0,PBOC Gov Yi speaks,2019-07-01 07:00:00,China,CNY,High Volatility Expected,,,,pboc-gov-yi-speaks-1876,s Governor Yi Gang Speaks
+389515,1836.0,Fed Monetary Policy Report,2019-07-05 15:00:00,United States,USD,High Volatility Expected,,,,fed-monetary-policy-report-1836,Federal Reserve Monetary Policy Report
+390537,1695.0,U.K. Prime Minister May Speaks,2019-07-24 16:00:00,United Kingdom,GBP,High Volatility Expected,,,,u.k.-prime-minister-may-speaks-1695,Prime Minister May Speaks
+394496,1921.0,U.K. Prime Minister Johnson Speaks,2019-10-03 10:30:00,United Kingdom,GBP,High Volatility Expected,,,,u.k.-prime-minister-johnson-speaks-1921,Prime Minister Boris Johnson Speaks
 395885,565.0,ECB President Draghi Speaks,2019-10-28 15:00:00,Euro Zone,EUR,High Volatility Expected,,,,ecb-president-draghi-speaks-565,European Central Bank President Draghi Speaks
-398009,1749.0,Mid-Year Economic and Fiscal Outlook,2019-12-10 00:30:00,Australia,AUD,High Volatility Expected,,,,mid-year-economic-and-fiscal-outlook-1749,Australia Mid-Year Economic and Fiscal Outlook
+398009,1749.0,Mid-Year Economic and Fiscal Outlook,2019-12-10 00:30:00,Australia,AUD,High Volatility Expected,,,,mid-year-economic-and-fiscal-outlook-1749,Mid-Year Economic and Fiscal Outlook
 398022,1688.0,SNB Press Conference,2019-12-12 09:00:00,Switzerland,CHF,High Volatility Expected,,,,snb-press-conference-1688,Swiss National Bank Press Conference
-397926,1709.0,U.K. General Election,2019-12-12 10:00:00,United Kingdom,GBP,High Volatility Expected,,,,u.k.-general-election-1709,U.K. General Election
-401586,1739.0,Fed Chair Powell Testifies,2020-02-12 15:00:00,United States,USD,High Volatility Expected,,,,fed-chair-powell-testifies-1739,U.S. Fed Chair Powell Testifies
-402611,216.0,BoE MPC Treasury Committee Hearings,2020-03-04 10:45:00,United Kingdom,GBP,High Volatility Expected,,,,boe-mpc-treasury-committee-hearings-216,Bank of England (BoE) Monetary Policy Committee (MPC) Treasury Committee Hearings
-402798,1034.0,BoE Gov Carney Speaks,2020-03-05 17:00:00,United Kingdom,GBP,High Volatility Expected,,,,boe-gov-carney-speaks-1034,Bank of England Governor Carney Speaks
-403388,1767.0,BoE Press Conference,2020-03-11 09:00:00,United Kingdom,GBP,High Volatility Expected,,,,boe-press-conference-1767,Bank of England Press Conference
-402686,125.0,GDP,2020-03-18 21:45:00,New Zealand,NZD,High Volatility Expected,0.5%,0.5%,0.8%,gdp-125,New Zealand Gross Domestic Product (GDP) QoQ
-403599,169.0,SNB Interest Rate Decision,2020-03-19 08:30:00,Switzerland,CHF,High Volatility Expected,-0.75%,-0.75%,-0.75%,snb-interest-rate-decision-169,Switzerland Interest Rate Decision
+397926,1709.0,U.K. General Election,2019-12-12 10:00:00,United Kingdom,GBP,High Volatility Expected,,,,u.k.-general-election-1709,General Election
+401586,1739.0,Fed Chair Powell Testifies,2020-02-12 15:00:00,United States,USD,High Volatility Expected,,,,fed-chair-powell-testifies-1739,Fed Chair Powell Testifies
+402611,216.0,BoE MPC Treasury Committee Hearings,2020-03-04 10:45:00,United Kingdom,GBP,High Volatility Expected,,,,boe-mpc-treasury-committee-hearings-216,(BoE) Monetary Policy Committee (MPC) Treasury Committee Hearings
+402798,1034.0,BoE Gov Carney Speaks,2020-03-05 17:00:00,United Kingdom,GBP,High Volatility Expected,,,,boe-gov-carney-speaks-1034,Governor Carney Speaks
+403388,1767.0,BoE Press Conference,2020-03-11 09:00:00,United Kingdom,GBP,High Volatility Expected,,,,boe-press-conference-1767,Press Conference
+402686,125.0,GDP,2020-03-18 21:45:00,New Zealand,NZD,High Volatility Expected,0.5%,0.5%,0.8%,gdp-125,Gross Domestic Product (GDP) 
+403599,169.0,SNB Interest Rate Decision,2020-03-19 08:30:00,Switzerland,CHF,High Volatility Expected,-0.75%,-0.75%,-0.75%,snb-interest-rate-decision-169,Interest Rate Decision
 403556,1689.0,SNB Monetary Policy Assessment,2020-03-19 08:30:00,Switzerland,CHF,High Volatility Expected,,,,snb-monetary-policy-assessment-1689,Swiss National Bank Monetary Policy Assessment
-404152,1694.0,U.S. President Trump Speaks,2020-03-24 16:05:00,United States,USD,High Volatility Expected,,,,u.s.-president-trump-speaks-1694,U.S. President Trump Speaks
-404311,597.0,Interest Rate Decision,2020-03-27 05:30:00,India,INR,High Volatility Expected,4.40%,5.15%,5.15%,interest-rate-decision-597,India Interest Rate Decision
-403335,279.0,Tankan Large Manufacturers Index,2020-03-31 23:50:00,Japan,JPY,High Volatility Expected,-8,-10,5,tankan-large-manufacturers-index-279,Japan Tankan Large Manufacturers Index
-403337,280.0,Tankan Large Non-Manufacturers Index,2020-03-31 23:50:00,Japan,JPY,High Volatility Expected,8,6,20,tankan-large-non-manufacturers-index-280,Japan Tankan Large Non-Manufacturers Index
-404730,108.0,FOMC Meeting Minutes,2020-04-08 18:00:00,United States,USD,High Volatility Expected,,,,fomc-meeting-minutes-108,U.S. Federal Open Market Committee (FOMC) Meeting Minutes
+404152,1694.0,U.S. President Trump Speaks,2020-03-24 16:05:00,United States,USD,High Volatility Expected,,,,u.s.-president-trump-speaks-1694,President Trump Speaks
+404311,597.0,Interest Rate Decision,2020-03-27 05:30:00,India,INR,High Volatility Expected,4.40%,5.15%,5.15%,interest-rate-decision-597,Interest Rate Decision
+403335,279.0,Tankan Large Manufacturers Index,2020-03-31 23:50:00,Japan,JPY,High Volatility Expected,-8,-10,5,tankan-large-manufacturers-index-279,Tankan Large Manufacturers Index
+403337,280.0,Tankan Large Non-Manufacturers Index,2020-03-31 23:50:00,Japan,JPY,High Volatility Expected,8,6,20,tankan-large-non-manufacturers-index-280,Tankan Large Non-Manufacturers Index
+404730,108.0,FOMC Meeting Minutes,2020-04-08 18:00:00,United States,USD,High Volatility Expected,,,,fomc-meeting-minutes-108,Federal Open Market Committee (FOMC) Meeting Minutes
 404657,1610.0,ECB Publishes Account of Monetary Policy Meeting,2020-04-09 11:30:00,Euro Zone,EUR,High Volatility Expected,,,,ecb-publishes-account-of-monetary-policy-meeting-1610,ECB Publishes Account of Monetary Policy Meeting
-405044,326.0,BoC Monetary Policy Report,2020-04-15 14:00:00,Canada,CAD,High Volatility Expected,,,,boc-monetary-policy-report-326,Bank of Canada Monetary Policy Report
-404543,166.0,BoC Interest Rate Decision,2020-04-15 14:00:00,Canada,CAD,High Volatility Expected,0.25%,0.25%,0.25%,boc-interest-rate-decision-166,Canada Interest Rate Decision
-405046,1791.0,BOC Press Conference,2020-04-15 15:15:00,Canada,CAD,High Volatility Expected,,,,boc-press-conference-1791,Bank of Canada Press Conference
-404308,461.0,GDP,2020-04-17 02:00:00,China,CNY,High Volatility Expected,-6.8%,-6.5%,6.0%,gdp-461,China Gross Domestic Product (GDP) YoY
-404430,72.0,CPI,2020-04-19 22:45:00,New Zealand,NZD,High Volatility Expected,0.8%,0.4%,0.5%,cpi-72,New Zealand Consumer Price Index (CPI) QoQ
-405522,1967.0,PBoC Loan Prime Rate,2020-04-20 01:30:00,China,CNY,High Volatility Expected,3.85%,3.85%,4.05%,pboc-loan-prime-rate-1967,People's Bank of China Loan Prime Rate
-405476,391.0,RBA Meeting Minutes,2020-04-21 01:30:00,Australia,AUD,High Volatility Expected,,,,rba-meeting-minutes-391,Reserve Bank of Australia Meeting Minutes
-404684,554.0,Interest Rate Decision,2020-04-24 10:30:00,Russia,RUB,High Volatility Expected,5.50%,5.50%,6.00%,interest-rate-decision-554,Russia Interest Rate Decision
-405807,1669.0,BoJ Monetary Policy Statement,2020-04-27 04:30:00,Japan,JPY,High Volatility Expected,,,,boj-monetary-policy-statement-1669,Bank of Japan Monetary Policy Statement
-405806,1668.0,BoJ Outlook Report,2020-04-27 04:30:00,Japan,JPY,High Volatility Expected,,,,boj-outlook-report-1668,Bank of Japan Quarterly Outlook Report
-405809,370.0,BoJ Press Conference,2020-04-27 07:00:00,Japan,JPY,High Volatility Expected,,,,boj-press-conference-370,Bank of Japan Press Conference
-404869,73.0,CPI,2020-04-29 01:30:00,Australia,AUD,High Volatility Expected,0.3%,0.2%,0.7%,cpi-73,Australia Consumer Price Index (CPI) QoQ
-405816,398.0,FOMC Statement,2020-04-29 18:00:00,United States,USD,High Volatility Expected,,,,fomc-statement-398,U.S. Federal Open Market Committee (FOMC) Statement
-405817,1692.0,FOMC Press Conference,2020-04-29 18:30:00,United States,USD,High Volatility Expected,,,,fomc-press-conference-1692,U.S. Federal Open Market Committee (FOMC) Press Conference
+405044,326.0,BoC Monetary Policy Report,2020-04-15 14:00:00,Canada,CAD,High Volatility Expected,,,,boc-monetary-policy-report-326,Monetary Policy Report
+404543,166.0,BoC Interest Rate Decision,2020-04-15 14:00:00,Canada,CAD,High Volatility Expected,0.25%,0.25%,0.25%,boc-interest-rate-decision-166,Interest Rate Decision
+405046,1791.0,BOC Press Conference,2020-04-15 15:15:00,Canada,CAD,High Volatility Expected,,,,boc-press-conference-1791,Press Conference
+404308,461.0,GDP,2020-04-17 02:00:00,China,CNY,High Volatility Expected,-6.8%,-6.5%,6.0%,gdp-461,Gross Domestic Product (GDP) 
+404430,72.0,CPI,2020-04-19 22:45:00,New Zealand,NZD,High Volatility Expected,0.8%,0.4%,0.5%,cpi-72,Consumer Price Index (CPI) 
+405522,1967.0,PBoC Loan Prime Rate,2020-04-20 01:30:00,China,CNY,High Volatility Expected,3.85%,3.85%,4.05%,pboc-loan-prime-rate-1967,Loan Prime Rate
+405476,391.0,RBA Meeting Minutes,2020-04-21 01:30:00,Australia,AUD,High Volatility Expected,,,,rba-meeting-minutes-391,Meeting Minutes
+404684,554.0,Interest Rate Decision,2020-04-24 10:30:00,Russia,RUB,High Volatility Expected,5.50%,5.50%,6.00%,interest-rate-decision-554,Interest Rate Decision
+405807,1669.0,BoJ Monetary Policy Statement,2020-04-27 04:30:00,Japan,JPY,High Volatility Expected,,,,boj-monetary-policy-statement-1669,Monetary Policy Statement
+405806,1668.0,BoJ Outlook Report,2020-04-27 04:30:00,Japan,JPY,High Volatility Expected,,,,boj-outlook-report-1668,Quarterly Outlook Report
+405809,370.0,BoJ Press Conference,2020-04-27 07:00:00,Japan,JPY,High Volatility Expected,,,,boj-press-conference-370,Press Conference
+404869,73.0,CPI,2020-04-29 01:30:00,Australia,AUD,High Volatility Expected,0.3%,0.2%,0.7%,cpi-73,Consumer Price Index (CPI) 
+405816,398.0,FOMC Statement,2020-04-29 18:00:00,United States,USD,High Volatility Expected,,,,fomc-statement-398,Federal Open Market Committee (FOMC) Statement
+405817,1692.0,FOMC Press Conference,2020-04-29 18:30:00,United States,USD,High Volatility Expected,,,,fomc-press-conference-1692,Federal Open Market Committee (FOMC) Press Conference
 405007,1655.0,Deposit Facility Rate,2020-04-30 11:45:00,Euro Zone,EUR,High Volatility Expected,-0.50%,-0.50%,-0.50%,deposit-facility-rate-1655,Euro Zone Deposit Facility Rate
 405978,1744.0,ECB Marginal Lending Facility,2020-04-30 11:45:00,Euro Zone,EUR,High Volatility Expected,0.25%,,0.25%,ecb-marginal-lending-facility-1744,Euro Zone Marginal Lending Facility Rate
 405824,1845.0,ECB Monetary Policy Statement,2020-04-30 11:45:00,Euro Zone,EUR,High Volatility Expected,,,,ecb-monetary-policy-statement-1845,European Central Bank Monetary Policy Statement
 405008,164.0,ECB Interest Rate Decision,2020-04-30 11:45:00,Euro Zone,EUR,High Volatility Expected,0.00%,0.00%,0.00%,ecb-interest-rate-decision-164,Eurozone Interest Rate Decision
 405825,396.0,ECB Press Conference,2020-04-30 12:30:00,Euro Zone,EUR,High Volatility Expected,,,,ecb-press-conference-396,European Central Bank Press Conference
-406293,387.0,RBA Rate Statement,2020-05-05 04:30:00,Australia,AUD,High Volatility Expected,,,,rba-rate-statement-387,Reserve Bank of Australia Rate Statement
-406300,176.0,ISM Non-Manufacturing PMI,2020-05-05 14:00:00,United States,USD,High Volatility Expected,41.8,36.8,52.5,ism-non-manufacturing-pmi-176,U.S. ISM Non-Manufacturing Purchasing Managers Index (PMI)
-405701,93.0,Employment Change,2020-05-05 22:45:00,New Zealand,NZD,High Volatility Expected,0.7%,-0.3%,0.0%,employment-change-93,New Zealand Employment Change QoQ
-405296,262.0,Retail Sales,2020-05-06 01:30:00,Australia,AUD,High Volatility Expected,8.5%,8.2%,0.5%,retail-sales-262,Australia Retail Sales MoM
-406315,44.0,Construction PMI,2020-05-06 08:30:00,United Kingdom,GBP,High Volatility Expected,8.2,22.0,39.3,construction-pmi-44,U.K. Construction Purchasing Managers Index (PMI)
-406366,15.0,BoE Inflation Report,2020-05-07 06:00:00,United Kingdom,GBP,High Volatility Expected,,,,boe-inflation-report-15,Bank of England Inflation Report
-405392,170.0,BoE Interest Rate Decision,2020-05-07 06:00:00,United Kingdom,GBP,High Volatility Expected,0.10%,0.10%,0.10%,boe-interest-rate-decision-170,U.K. Interest Rate Decision
-406362,212.0,BoE MPC Meeting Minutes,2020-05-07 06:00:00,United Kingdom,GBP,High Volatility Expected,,,,boe-mpc-meeting-minutes-212,Bank of England (BoE) Monetary Policy Committee (MPC) Meeting Minutes
-405404,185.0,Ivey PMI,2020-05-07 14:00:00,Canada,CAD,High Volatility Expected,22.8,25.0,26.0,ivey-pmi-185,Canada Ivey Purchasing Managers Index (PMI)
+406293,387.0,RBA Rate Statement,2020-05-05 04:30:00,Australia,AUD,High Volatility Expected,,,,rba-rate-statement-387,Rate Statement
+406300,176.0,ISM Non-Manufacturing PMI,2020-05-05 14:00:00,United States,USD,High Volatility Expected,41.8,36.8,52.5,ism-non-manufacturing-pmi-176,ISM Non-Manufacturing Purchasing Managers Index (PMI)
+405701,93.0,Employment Change,2020-05-05 22:45:00,New Zealand,NZD,High Volatility Expected,0.7%,-0.3%,0.0%,employment-change-93,Employment Change 
+405296,262.0,Retail Sales,2020-05-06 01:30:00,Australia,AUD,High Volatility Expected,8.5%,8.2%,0.5%,retail-sales-262,Retail Sales 
+406315,44.0,Construction PMI,2020-05-06 08:30:00,United Kingdom,GBP,High Volatility Expected,8.2,22.0,39.3,construction-pmi-44,Construction Purchasing Managers Index (PMI)
+406366,15.0,BoE Inflation Report,2020-05-07 06:00:00,United Kingdom,GBP,High Volatility Expected,,,,boe-inflation-report-15,Inflation Report
+405392,170.0,BoE Interest Rate Decision,2020-05-07 06:00:00,United Kingdom,GBP,High Volatility Expected,0.10%,0.10%,0.10%,boe-interest-rate-decision-170,Interest Rate Decision
+406362,212.0,BoE MPC Meeting Minutes,2020-05-07 06:00:00,United Kingdom,GBP,High Volatility Expected,,,,boe-mpc-meeting-minutes-212,(BoE) Monetary Policy Committee (MPC) Meeting Minutes
+405404,185.0,Ivey PMI,2020-05-07 14:00:00,Canada,CAD,High Volatility Expected,22.8,25.0,26.0,ivey-pmi-185,Ivey Purchasing Managers Index (PMI)
 406731,1965.0,ECB President Lagarde Speaks,2020-05-08 11:00:00,Euro Zone,EUR,High Volatility Expected,,,,ecb-president-lagarde-speaks-1965,European Central Bank President Lagarde Speaks
-405517,300.0,Unemployment Rate,2020-05-08 12:30:00,United States,USD,High Volatility Expected,14.7%,16.0%,4.4%,unemployment-rate-300,U.S. Unemployment Rate
-405507,95.0,Employment Change,2020-05-08 12:30:00,Canada,CAD,High Volatility Expected,"-1,993.8K","-4,000.0K","-1,010.7K",employment-change-95,Canada Employment Change
+405517,300.0,Unemployment Rate,2020-05-08 12:30:00,United States,USD,High Volatility Expected,14.7%,16.0%,4.4%,unemployment-rate-300,Unemployment Rate
+405507,95.0,Employment Change,2020-05-08 12:30:00,Canada,CAD,High Volatility Expected,"-1,993.8K","-4,000.0K","-1,010.7K",employment-change-95,Employment Change
 406751,1785.0,BCB Copom Meeting Minutes,2020-05-12 11:00:00,Brazil,BRL,High Volatility Expected,,,,bcb-copom-meeting-minutes-1785,BCB Copom Meeting Minutes
-405666,56.0,Core CPI,2020-05-12 12:30:00,United States,USD,High Volatility Expected,-0.4%,-0.2%,-0.1%,core-cpi-56,U.S. Core Consumer Price Index (CPI) MoM
-403681,167.0,RBNZ Interest Rate Decision,2020-05-13 02:00:00,New Zealand,NZD,High Volatility Expected,0.25%,0.25%,0.25%,rbnz-interest-rate-decision-167,New Zealand Interest Rate Decision
-406681,399.0,RBNZ Rate Statement,2020-05-13 02:00:00,New Zealand,NZD,High Volatility Expected,,,,rbnz-rate-statement-399,Reserve Bank of New Zealand Rate Statement
-406683,1761.0,RBNZ Press Conference,2020-05-13 03:00:00,New Zealand,NZD,High Volatility Expected,,,,rbnz-press-conference-1761,Reserve Bank of New Zealand Press Conference
-406684,1792.0,GDP,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-5.8%,,-0.1%,gdp-1792,U.K. Gross Domestic Product (GDP) MoM
-405687,728.0,GDP,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-1.6%,-2.1%,1.1%,gdp-728,U.K. Gross Domestic Product (GDP) YoY
-405699,121.0,GDP,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-2.0%,-2.5%,0.0%,gdp-121,U.K. Gross Domestic Product (GDP) QoQ
-405689,205.0,Manufacturing Production,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-4.6%,-6.0%,0.3%,manufacturing-production-205,U.K. Manufacturing Production MoM
-406758,1800.0,Monthly GDP 3M/3M Change,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-2.0%,,0.0%,monthly-gdp-3m/3m-change-1800,
-405726,238.0,PPI,2020-05-13 12:30:00,United States,USD,High Volatility Expected,-1.3%,-0.5%,-0.2%,ppi-238,U.S. Producer Price Index (PPI) MoM
-407021,1738.0,Fed Chair Powell Speaks,2020-05-13 13:00:00,United States,USD,High Volatility Expected,,,,fed-chair-powell-speaks-1738,U.S. Fed Chair Powell Speaks
-406638,75.0,Crude Oil Inventories,2020-05-13 14:30:00,United States,USD,High Volatility Expected,,4.147M,4.590M,crude-oil-inventories-75,U.S. Crude Oil Inventories
-407028,1776.0,RBNZ Gov Orr Speaks,2020-05-13 20:10:00,New Zealand,NZD,High Volatility Expected,,,,rbnz-gov-orr-speaks-1776,Reserve Bank of New Zealand Governor Orr Speaks
-405740,94.0,Employment Change,2020-05-14 01:30:00,Australia,AUD,High Volatility Expected,,-575.0K,5.9K,employment-change-94,Australia Employment Change
-406710,1861.0,Annual Budget Release,2020-05-14 02:00:00,New Zealand,NZD,High Volatility Expected,,,,annual-budget-release-1861,New Zealand Annual Budget Release
-406799,294.0,Initial Jobless Claims,2020-05-14 12:30:00,United States,USD,High Volatility Expected,,"2,500K","3,169K",initial-jobless-claims-294,U.S. Initial Jobless Claims
-406717,1033.0,BoC Gov Poloz Speaks,2020-05-14 15:15:00,Canada,CAD,High Volatility Expected,,,,boc-gov-poloz-speaks-1033,Bank of Canada Governor Poloz Speaks
-405853,462.0,Industrial Production,2020-05-15 02:00:00,China,CNY,High Volatility Expected,,1.5%,-1.1%,industrial-production-462,China Industrial Production YoY
-405934,63.0,Core Retail Sales,2020-05-15 12:30:00,United States,USD,High Volatility Expected,,-8.6%,-4.2%,core-retail-sales-63,U.S. Core Retail Sales MoM
-405930,256.0,Retail Sales,2020-05-15 12:30:00,United States,USD,High Volatility Expected,,-12.0%,-8.4%,retail-sales-256,U.S. Retail Sales MoM
-405971,1057.0,JOLTs Job Openings,2020-05-15 14:00:00,United States,USD,High Volatility Expected,,,6.882M,jolts-job-openings-1057,U.S. JOLTs Job Openings
-406046,119.0,GDP,2020-05-17 23:50:00,Japan,JPY,High Volatility Expected,,-1.2%,-1.8%,gdp-119,Japan Gross Domestic Product (GDP) QoQ
-406082,7.0,Average Earnings Index +Bonus,2020-05-19 06:00:00,United Kingdom,GBP,High Volatility Expected,,3.0%,2.8%,average-earnings-index-+bonus-7,U.K. Average Earnings Index +Bonus
-406073,39.0,Claimant Count Change,2020-05-19 06:00:00,United Kingdom,GBP,High Volatility Expected,,172.5K,12.1K,claimant-count-change-39,U.K. Claimant Count Change
-406093,144.0,German ZEW Economic Sentiment,2020-05-19 09:00:00,Germany,EUR,High Volatility Expected,,-42.3,28.2,german-zew-economic-sentiment-144,Germany ZEW Economic Sentiment
-406101,25.0,Building Permits,2020-05-19 12:30:00,United States,USD,High Volatility Expected,,1.100M,1.350M,building-permits-25,U.S. Building Permits
-406124,67.0,CPI,2020-05-20 06:00:00,United Kingdom,GBP,High Volatility Expected,,1.5%,1.5%,cpi-67,U.K. Consumer Price Index (CPI) YoY
-406163,57.0,Core CPI,2020-05-20 12:30:00,Canada,CAD,High Volatility Expected,,,0.7%,core-cpi-57,Canada Core Consumer Price Index (CPI) MoM
-406199,409.0,One-Week Repo Rate,2020-05-21 11:00:00,Turkey,TRY,High Volatility Expected,,9.25%,8.75%,one-week-repo-rate-409,Turkey One-Week Repo Rate
-406201,1068.0,Overnight Borrowing Rate,2020-05-21 11:00:00,Turkey,TRY,High Volatility Expected,,,7.25%,overnight-borrowing-rate-1068,Turkey Overnight Borrowing Rate
-406211,236.0,Philadelphia Fed Manufacturing Index,2020-05-21 12:30:00,United States,USD,High Volatility Expected,,-47.0,-56.6,philadelphia-fed-manufacturing-index-236,U.S. Philadelphia Fed Manufacturing Index
-406220,99.0,Existing Home Sales,2020-05-21 14:00:00,United States,USD,High Volatility Expected,,4.40M,5.27M,existing-home-sales-99,U.S. Existing Home Sales
-406297,258.0,Retail Sales,2020-05-22 08:30:00,United Kingdom,GBP,High Volatility Expected,,,-5.1%,retail-sales-258,U.K. Retail Sales MoM
-406325,65.0,Core Retail Sales,2020-05-22 12:30:00,Canada,CAD,High Volatility Expected,,0.3%,-15.6%,core-retail-sales-65,Canada Core Retail Sales MoM
-406415,131.0,German GDP,2020-05-25 06:00:00,Germany,EUR,High Volatility Expected,,,,german-gdp-131,Germany Gross Domestic Product (GDP) QoQ
-406423,132.0,German Ifo Business Climate Index,2020-05-25 08:00:00,Germany,EUR,High Volatility Expected,,80.0,74.3,german-ifo-business-climate-index-132,Germany Ifo Business Climate Index
-406496,48.0,CB Consumer Confidence,2020-05-26 14:00:00,United States,USD,High Volatility Expected,,87.9,86.9,cb-consumer-confidence-48,U.S. CB Consumer Confidence
-406495,222.0,New Home Sales,2020-05-26 14:00:00,United States,USD,High Volatility Expected,,645K,627K,new-home-sales-222,U.S. New Home Sales
-406607,59.0,Core Durable Goods Orders,2020-05-28 12:30:00,United States,USD,High Volatility Expected,,-5.8%,-0.4%,core-durable-goods-orders-59,U.S. Core Durable Goods Orders MoM
-406616,232.0,Pending Home Sales,2020-05-28 14:00:00,United States,USD,High Volatility Expected,,-10.0%,-20.8%,pending-home-sales-232,U.S. Pending Home Sales MoM
-406723,68.0,CPI,2020-05-29 09:00:00,Euro Zone,EUR,High Volatility Expected,,0.1%,0.7%,cpi-68,Eurozone Consumer Price Index (CPI) YoY
-406790,123.0,GDP,2020-05-29 12:30:00,Canada,CAD,High Volatility Expected,,0.1%,0.2%,gdp-123,Canada Gross Domestic Product (GDP) MoM
-406867,594.0,Manufacturing PMI,2020-05-31 01:00:00,China,CNY,High Volatility Expected,,51.0,50.8,manufacturing-pmi-594,China Manufacturing Purchasing Managers Index (PMI)
-406879,753.0,Caixin Manufacturing PMI,2020-06-01 01:45:00,China,CNY,High Volatility Expected,,50.3,49.4,chinese-caixin-manufacturing-pmi-753,China Caixin Manufacturing Purchasing Managers Index (PMI)
-406909,204.0,Manufacturing PMI,2020-06-01 08:30:00,United Kingdom,GBP,High Volatility Expected,,,,manufacturing-pmi-204,U.K. Manufacturing Purchasing Managers Index (PMI)
-406923,173.0,ISM Manufacturing PMI,2020-06-01 14:00:00,United States,USD,High Volatility Expected,,36.9,41.5,ism-manufacturing-pmi-173,U.S. ISM Manufacturing Purchasing Managers Index (PMI)
-406949,171.0,RBA Interest Rate Decision,2020-06-02 04:30:00,Australia,AUD,High Volatility Expected,,0.25%,0.25%,rba-interest-rate-decision-171,Australia Interest Rate Decision
-406966,136.0,German Manufacturing PMI,2020-06-02 07:55:00,Germany,EUR,High Volatility Expected,,34.4,34.4,german-manufacturing-pmi-136,Germany Manufacturing Purchasing Managers Index (PMI)
-406988,124.0,GDP,2020-06-03 01:30:00,Australia,AUD,High Volatility Expected,,0.3%,0.5%,gdp-124,Australia Gross Domestic Product (GDP) QoQ
-407010,332.0,German Unemployment Change,2020-06-03 07:55:00,Germany,EUR,High Volatility Expected,,76K,373K,german-unemployment-change-332,Germany Unemployment Change
-407013,1934.0,Composite PMI,2020-06-03 08:30:00,United Kingdom,GBP,High Volatility Expected,,12.9,12.9,composite-pmi-1934,U.K. Composite Purchasing Managers' Index (PMI)
-407014,274.0,Services PMI,2020-06-03 08:30:00,United Kingdom,GBP,High Volatility Expected,,,,services-pmi-274,U.K. Services Purchasing Managers Index (PMI)
-407031,1.0,ADP Nonfarm Employment Change,2020-06-03 12:15:00,United States,USD,High Volatility Expected,,,"-20,236K",adp-nonfarm-employment-change-1,U.S. ADP Nonfarm Employment Change
-406797,227.0,Nonfarm Payrolls,2020-06-05 12:30:00,United States,USD,High Volatility Expected,,"-22,000K","-20,500K",nonfarm-payrolls-227,U.S. Nonfarm Payrolls
-406170,375.0,GDP,2020-06-25 12:30:00,United States,USD,High Volatility Expected,,2.1%,2.1%,gdp-375,U.S. Gross Domestic Product (GDP) QoQ
-400107,1680.0,Autumn Budget,2020-10-29 12:30:00,United Kingdom,GBP,High Volatility Expected,,,,autumn-budget-1680,United Kingdom Autumn Budget
-391250,1061.0,FOMC Economic Projections,2020-12-16 19:00:00,United States,USD,High Volatility Expected,,,,fomc-economic-projections-1061,U.S. Federal Open Market Committee (FOMC) Economic Projections
+405666,56.0,Core CPI,2020-05-12 12:30:00,United States,USD,High Volatility Expected,-0.4%,-0.2%,-0.1%,core-cpi-56,Core Consumer Price Index (CPI) 
+403681,167.0,RBNZ Interest Rate Decision,2020-05-13 02:00:00,New Zealand,NZD,High Volatility Expected,0.25%,0.25%,0.25%,rbnz-interest-rate-decision-167,Interest Rate Decision
+406681,399.0,RBNZ Rate Statement,2020-05-13 02:00:00,New Zealand,NZD,High Volatility Expected,,,,rbnz-rate-statement-399,Rate Statement
+406683,1761.0,RBNZ Press Conference,2020-05-13 03:00:00,New Zealand,NZD,High Volatility Expected,,,,rbnz-press-conference-1761,Press Conference
+406684,1792.0,GDP,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-5.8%,,-0.1%,gdp-1792,Gross Domestic Product (GDP) 
+405687,728.0,GDP,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-1.6%,-2.1%,1.1%,gdp-728,Gross Domestic Product (GDP) 
+405699,121.0,GDP,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-2.0%,-2.5%,0.0%,gdp-121,Gross Domestic Product (GDP) 
+405689,205.0,Manufacturing Production,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-4.6%,-6.0%,0.3%,manufacturing-production-205,Manufacturing Production 
+406758,1800.0,Monthly GDP 3M/3M Change,2020-05-13 06:00:00,United Kingdom,GBP,High Volatility Expected,-2.0%,,0.0%,monthly-gdp-3m-3m-change-1800,Monthly Gross Domestic Product (GDP) 3M/3M Change
+405726,238.0,PPI,2020-05-13 12:30:00,United States,USD,High Volatility Expected,-1.3%,-0.5%,-0.2%,ppi-238,Producer Price Index (PPI) 
+407021,1738.0,Fed Chair Powell Speaks,2020-05-13 13:00:00,United States,USD,High Volatility Expected,,,,fed-chair-powell-speaks-1738,Fed Chair Powell Speaks
+406638,75.0,Crude Oil Inventories,2020-05-13 14:30:00,United States,USD,High Volatility Expected,,4.147M,4.590M,crude-oil-inventories-75,Crude Oil Inventories
+407028,1776.0,RBNZ Gov Orr Speaks,2020-05-13 20:10:00,New Zealand,NZD,High Volatility Expected,,,,rbnz-gov-orr-speaks-1776,Governor Orr Speaks
+405740,94.0,Employment Change,2020-05-14 01:30:00,Australia,AUD,High Volatility Expected,,-575.0K,5.9K,employment-change-94,Employment Change
+406710,1861.0,Annual Budget Release,2020-05-14 02:00:00,New Zealand,NZD,High Volatility Expected,,,,annual-budget-release-1861,Annual Budget Release
+406799,294.0,Initial Jobless Claims,2020-05-14 12:30:00,United States,USD,High Volatility Expected,,"2,500K","3,169K",initial-jobless-claims-294,Initial Jobless Claims
+406717,1033.0,BoC Gov Poloz Speaks,2020-05-14 15:15:00,Canada,CAD,High Volatility Expected,,,,boc-gov-poloz-speaks-1033,Governor Poloz Speaks
+405853,462.0,Industrial Production,2020-05-15 02:00:00,China,CNY,High Volatility Expected,,1.5%,-1.1%,industrial-production-462,Industrial Production 
+405934,63.0,Core Retail Sales,2020-05-15 12:30:00,United States,USD,High Volatility Expected,,-8.6%,-4.2%,core-retail-sales-63,Core Retail Sales 
+405930,256.0,Retail Sales,2020-05-15 12:30:00,United States,USD,High Volatility Expected,,-12.0%,-8.4%,retail-sales-256,Retail Sales 
+405971,1057.0,JOLTs Job Openings,2020-05-15 14:00:00,United States,USD,High Volatility Expected,,,6.882M,jolts-job-openings-1057,JOLTs Job Openings
+406046,119.0,GDP,2020-05-17 23:50:00,Japan,JPY,High Volatility Expected,,-1.2%,-1.8%,gdp-119,Gross Domestic Product (GDP) 
+406082,7.0,Average Earnings Index +Bonus,2020-05-19 06:00:00,United Kingdom,GBP,High Volatility Expected,,3.0%,2.8%,average-earnings-index-+bonus-7,Average Earnings Index +Bonus
+406073,39.0,Claimant Count Change,2020-05-19 06:00:00,United Kingdom,GBP,High Volatility Expected,,172.5K,12.1K,claimant-count-change-39,Claimant Count Change
+406093,144.0,German ZEW Economic Sentiment,2020-05-19 09:00:00,Germany,EUR,High Volatility Expected,,-42.3,28.2,german-zew-economic-sentiment-144,ZEW Economic Sentiment
+406101,25.0,Building Permits,2020-05-19 12:30:00,United States,USD,High Volatility Expected,,1.100M,1.350M,building-permits-25,Building Permits
+406124,67.0,CPI,2020-05-20 06:00:00,United Kingdom,GBP,High Volatility Expected,,1.5%,1.5%,cpi-67,Consumer Price Index (CPI) 
+406163,57.0,Core CPI,2020-05-20 12:30:00,Canada,CAD,High Volatility Expected,,,0.7%,core-cpi-57,Core Consumer Price Index (CPI) 
+406199,409.0,One-Week Repo Rate,2020-05-21 11:00:00,Turkey,TRY,High Volatility Expected,,9.25%,8.75%,one-week-repo-rate-409,One-Week Repo Rate
+406201,1068.0,Overnight Borrowing Rate,2020-05-21 11:00:00,Turkey,TRY,High Volatility Expected,,,7.25%,overnight-borrowing-rate-1068,Overnight Borrowing Rate
+406211,236.0,Philadelphia Fed Manufacturing Index,2020-05-21 12:30:00,United States,USD,High Volatility Expected,,-47.0,-56.6,philadelphia-fed-manufacturing-index-236,Philadelphia Fed Manufacturing Index
+406220,99.0,Existing Home Sales,2020-05-21 14:00:00,United States,USD,High Volatility Expected,,4.40M,5.27M,existing-home-sales-99,Existing Home Sales
+406297,258.0,Retail Sales,2020-05-22 08:30:00,United Kingdom,GBP,High Volatility Expected,,,-5.1%,retail-sales-258,Retail Sales 
+406325,65.0,Core Retail Sales,2020-05-22 12:30:00,Canada,CAD,High Volatility Expected,,0.3%,-15.6%,core-retail-sales-65,Core Retail Sales 
+406415,131.0,German GDP,2020-05-25 06:00:00,Germany,EUR,High Volatility Expected,,,,german-gdp-131,Gross Domestic Product (GDP) 
+406423,132.0,German Ifo Business Climate Index,2020-05-25 08:00:00,Germany,EUR,High Volatility Expected,,80.0,74.3,german-ifo-business-climate-index-132,Ifo Business Climate Index
+406496,48.0,CB Consumer Confidence,2020-05-26 14:00:00,United States,USD,High Volatility Expected,,87.9,86.9,cb-consumer-confidence-48,CB Consumer Confidence
+406495,222.0,New Home Sales,2020-05-26 14:00:00,United States,USD,High Volatility Expected,,645K,627K,new-home-sales-222,New Home Sales
+406607,59.0,Core Durable Goods Orders,2020-05-28 12:30:00,United States,USD,High Volatility Expected,,-5.8%,-0.4%,core-durable-goods-orders-59,Core Durable Goods Orders 
+406616,232.0,Pending Home Sales,2020-05-28 14:00:00,United States,USD,High Volatility Expected,,-10.0%,-20.8%,pending-home-sales-232,Pending Home Sales 
+406723,68.0,CPI,2020-05-29 09:00:00,Euro Zone,EUR,High Volatility Expected,,0.1%,0.7%,cpi-68,Eurozone Consumer Price Index (CPI) 
+406790,123.0,GDP,2020-05-29 12:30:00,Canada,CAD,High Volatility Expected,,0.1%,0.2%,gdp-123,Gross Domestic Product (GDP) 
+406867,594.0,Manufacturing PMI,2020-05-31 01:00:00,China,CNY,High Volatility Expected,,51.0,50.8,manufacturing-pmi-594,Manufacturing Purchasing Managers Index (PMI)
+406879,753.0,Caixin Manufacturing PMI,2020-06-01 01:45:00,China,CNY,High Volatility Expected,,50.3,49.4,chinese-caixin-manufacturing-pmi-753,Caixin Manufacturing Purchasing Managers Index (PMI)
+406909,204.0,Manufacturing PMI,2020-06-01 08:30:00,United Kingdom,GBP,High Volatility Expected,,,,manufacturing-pmi-204,Manufacturing Purchasing Managers Index (PMI)
+406923,173.0,ISM Manufacturing PMI,2020-06-01 14:00:00,United States,USD,High Volatility Expected,,36.9,41.5,ism-manufacturing-pmi-173,ISM Manufacturing Purchasing Managers Index (PMI)
+406949,171.0,RBA Interest Rate Decision,2020-06-02 04:30:00,Australia,AUD,High Volatility Expected,,0.25%,0.25%,rba-interest-rate-decision-171,Interest Rate Decision
+406966,136.0,German Manufacturing PMI,2020-06-02 07:55:00,Germany,EUR,High Volatility Expected,,34.4,34.4,german-manufacturing-pmi-136,Manufacturing Purchasing Managers Index (PMI)
+406988,124.0,GDP,2020-06-03 01:30:00,Australia,AUD,High Volatility Expected,,0.3%,0.5%,gdp-124,Gross Domestic Product (GDP) 
+407010,332.0,German Unemployment Change,2020-06-03 07:55:00,Germany,EUR,High Volatility Expected,,76K,373K,german-unemployment-change-332,Unemployment Change
+407013,1934.0,Composite PMI,2020-06-03 08:30:00,United Kingdom,GBP,High Volatility Expected,,12.9,12.9,composite-pmi-1934,Composite Purchasing Managers' Index (PMI)
+407014,274.0,Services PMI,2020-06-03 08:30:00,United Kingdom,GBP,High Volatility Expected,,,,services-pmi-274,Services Purchasing Managers Index (PMI)
+407031,1.0,ADP Nonfarm Employment Change,2020-06-03 12:15:00,United States,USD,High Volatility Expected,,,"-20,236K",adp-nonfarm-employment-change-1,ADP Nonfarm Employment Change
+406797,227.0,Nonfarm Payrolls,2020-06-05 12:30:00,United States,USD,High Volatility Expected,,"-22,000K","-20,500K",nonfarm-payrolls-227,Nonfarm Payrolls
+406170,375.0,GDP,2020-06-25 12:30:00,United States,USD,High Volatility Expected,,2.1%,2.1%,gdp-375,Gross Domestic Product (GDP) 
+400107,1680.0,Autumn Budget,2020-10-29 12:30:00,United Kingdom,GBP,High Volatility Expected,,,,autumn-budget-1680,Autumn Budget
+391250,1061.0,FOMC Economic Projections,2020-12-16 19:00:00,United States,USD,High Volatility Expected,,,,fomc-economic-projections-1061,Federal Open Market Committee (FOMC) Economic Projections
 391246,168.0,Fed Interest Rate Decision,2020-12-16 19:00:00,United States,USD,High Volatility Expected,,,,fed-interest-rate-decision-168,Fed Interest Rate Decision
