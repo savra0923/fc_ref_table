@@ -23,20 +23,22 @@ def get_dis(row):
 def get_friendly(df):
     prefix_bank=pd.read_csv("known_prefixs.csv")
     prefix_bank= prefix_bank['prefixes'].values.tolist()
-    #countires_list=pd.read_csv("countries.csv")
-    #countires_list=countires_list['countries'].values.tolist()
+    countires_list=pd.read_csv("countries.csv")
+    countires_list=countires_list['country'].values.tolist()
 
     parsed_data = []
     new_df=pd.DataFrame(columns=['prefix', 'friendly_name', 'event_type_ids'])
 
     for index, row in df.iterrows():
         title = row['title']
-        print(title)
+        #print(title)
         parsed_row = {}
 
         if '(' not in title:
+            not_in_bank_flag=True
             for word in prefix_bank:
                 if title.find(word) != -1:
+                    not_in_bank_flag=False
                     parsed_row = new_df.loc[new_df['prefix'] == word].copy()
                     if parsed_row.empty:
                         parsed_row = {}
@@ -50,7 +52,33 @@ def get_friendly(df):
 
                         lister = lister + str(int(row['event_type_id'])) + ' '
                         parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
-        else:
+            if not_in_bank_flag:
+                for word in countires_list:
+                    if title.find(word) != -1:
+                        title=title[title.find(word)+len(word)+1:]
+
+                print('title: {}'.format(title))
+                if(title.find('MoM') != -1 or title.find('QoQ') != -1 or title.find('YoY') != -1):
+                    print('mew_title: {}'.format(title))
+
+                pref = title
+                if title not in prefix_bank:
+                    prefix_bank.append(title)
+                    parsed_row['prefix'] = pref
+                    parsed_row['event_type_ids'] = str(int(row['event_type_id']))
+                    parsed_row['friendly_name'] = [pref]
+                else:
+                    parsed_row = new_df.loc[new_df['prefix'] == pref].copy()
+                    parsed_row['event_type_ids'] = str(int(row['event_type_id']))
+                    lister = ''
+                    for elem in parsed_row['event_type_ids'].values:
+                        lister = lister + elem + ' '
+
+                    lister = lister + str(int(row['event_type_id'])) + ' '
+                    parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
+                    parsed_row['friendly_name'] = [pref]
+
+        elif '(' in title:
             for word in title.split(' '):
                 if '(' in word:
                     w= word.replace('(', '').replace(')', '')
@@ -61,7 +89,10 @@ def get_friendly(df):
                         parsed_row['friendly_name'] = [word.replace('(', '').replace(')', '')]
 
                         pref_len = len(parsed_row['prefix'])
+                        if title.count('(') > 1:
+                            title = title[title.find(')')+2:]
                         title=title[:title.find('(')]
+                        print('title: {}'.format(title))
                         words = title.split(' ')
                         words = ' '.join(words[-(pref_len+1):-1])
                         parsed_row['friendly_name'] = parsed_row['friendly_name'] + [words, words + ' (' + parsed_row['prefix'] + ')']
@@ -73,6 +104,28 @@ def get_friendly(df):
 
                         lister = lister + str(int(row['event_type_id']))+' '
                         parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
+        else:
+            print('title: {}'.format(title))
+            for word in countires_list:
+                if title.find(word) != -1:
+                    print(word)
+
+            pref = title.split(' ', 1)[1]
+            if title not in prefix_bank:
+                prefix_bank.append(title)
+                parsed_row['prefix'] = pref
+                parsed_row['event_type_ids'] = str(int(row['event_type_id']))
+                parsed_row['friendly_name'] = [pref]
+            else:
+                parsed_row = new_df.loc[new_df['prefix'] == pref].copy()
+                parsed_row['event_type_ids'] = str(int(row['event_type_id']))
+                lister = ''
+                for elem in parsed_row['event_type_ids'].values:
+                    lister = lister + elem + ' '
+
+                lister = lister + str(int(row['event_type_id'])) + ' '
+                parsed_row.loc[parsed_row.prefix == parsed_row['prefix'], 'event_type_ids'] = lister
+                parsed_row['friendly_name'] = [pref]
 
         new_df = new_df.append(parsed_row, ignore_index=True)
         new_df = new_df.drop_duplicates(subset=['prefix'], keep='last')
