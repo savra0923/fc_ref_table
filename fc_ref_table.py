@@ -105,6 +105,7 @@ def get_friendly(df):
 
 
 def get_title(row):
+    #TODO: dont you filter out the holidays in the beginning?
     if (row['impact'] == 'Holiday'):
         return ''
     headers = {
@@ -177,15 +178,18 @@ def pre_processing(df):
     df = df[df.impact != 'Holiday']
     # df= df[df.impact=='Low Volatility Expected']
     df = df.drop_duplicates(subset=['event_type_id'], keep='last')
+    # TODO: why not do these two function in the same iteration??
     df['event_name'] = df.apply(no_parantasis, axis='columns')
     df['urls'] = df.apply(get_url_parts, axis='columns')
     print(len(df.index))
+
     df['title'] = df.apply(get_title, axis='columns')
     print('done pre_pocessing')
     return df
 
 
 if __name__ == "__main__":
+    # TODO: I dont understand why you need to iterate over the whole df so many times. Why can't it iterate once and do all the function in that one run?
     # df= investing_scraper.get_events_year_range(2019,2020)
     # Tomer: I formatted all of the code to pep 8 you should read about it a little. (cntrl+alt+L)
     loader_fc = pd.read_csv("yearsTest2.csv")
