@@ -23,7 +23,7 @@ def get_dis(row):
 def row_setup(prefix, friendly_names, event_type_ids):
     parsed_row = {}
     parsed_row['prefix'] = prefix
-    parsed_row['event_type_ids'] =  str(int(event_type_ids))
+    parsed_row['event_type_ids'] = str(int(event_type_ids))
     parsed_row['friendly_name'] = [friendly_names]
 
     return parsed_row
@@ -118,11 +118,11 @@ def get_title(row):
 
     countires_list = pd.read_csv("countries.csv")
     countires_list = countires_list['country'].values.tolist()
-    l= ['MoM', 'QoQ', 'YoY']
+    l= ['MoM', 'QoQ', 'YoY', '(MoM)', '(QoQ)', '(YoY)']
 
     for word in l:
         if info.find(word) != -1:
-            info= info[:info.find(word)]
+            info= info[:info.find(word)-1]
             print('title: {}'.format(info))
 
     for word in countires_list:
@@ -138,7 +138,7 @@ def get_url_parts(row):
     proper=row['event_name'].lower()
     event_id= str(int(row['event_type_id']))
 
-    proper=proper.replace('/', ' ')
+    proper=proper.replace('/', ' ').replace('-', ' ')
 
     words = proper.split(' ')
     words_temp= proper.split(' ')
@@ -167,11 +167,12 @@ def no_parantasis(row):
     return words
 
 def pre_processing(df):
-    df= df[df.impact=='Holiday']
-    #df= df[df.impact=='Moderate Volatility Expected']
+    df= df[df.impact!='Holiday']
+    df= df[df.impact=='Low Volatility Expected']
     df= df.drop_duplicates(subset=['event_type_id'], keep='last')
     df['event_name'] = df.apply(no_parantasis, axis='columns')
     df['urls'] = df.apply(get_url_parts, axis='columns')
+    print(df.size)
     df['title'] = df.apply(get_title, axis='columns')
     print('done pre_pocessing')
     return df
@@ -183,10 +184,10 @@ if __name__ == "__main__":
     #loader_fc = pd.read_csv("yearsTest2.csv")
     #print(loader_fc.size)
     #fc= pre_processing(loader_fc)
-    #fc.to_csv('FullTitlesMod.csv', index=False)
-    fc=pd.read_csv("FullTitles-2.csv")
+    #fc.to_csv('FullTitlesLow.csv', index=False)
+    fc=pd.read_csv("FullTitlesLow.csv")
     print(fc.size)
     fc=get_friendly(fc)
-    fc.to_csv('trying.csv', index=False)
+    fc.to_csv('tryingLow.csv', index=False)
 
     print('done!!')
