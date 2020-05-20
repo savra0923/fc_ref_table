@@ -3,22 +3,37 @@ import requests
 import numpy as np
 from lxml import etree, html
 
-def get_dis(row):
-    if (row['impact'] == 'Holiday'):
-        return ''
+def get_dis(urls):
+
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
 
-    url = 'https://www.investing.com/economic-calendar/{}'.format(row.urls)
+    url = 'https://www.investing.com/economic-calendar/{}'.format(urls)
 
     r = requests.get(url, headers=headers)
     info=html.fromstring(r.content).xpath('//*[@id="overViewBox"]/div[1]/text()')
 
     for line in range(len(info)):
         info[line]=info[line].replace('\r','').replace('\n','')
+        if info[line].isspace() and line==max(range(len(info))):
+            #info=None
+            return []
 
-    print('{}'.format(row.time))
+    #print('{}'.format(info))
     return info
+
+def shortened_desc(row):
+
+    desc = row['description']
+    if not desc:
+        return ''
+
+    if type(desc) is list:
+        desc = desc[0]
+    else:
+        desc = desc
+
+    return desc
 
 def row_setup(prefix, friendly_names, event_type_ids):
     parsed_row = {}
@@ -50,7 +65,7 @@ def get_friendly(df):
     prefix_bank=pd.read_csv("known_prefixs.csv")
     prefix_bank= prefix_bank['prefixes'].values.tolist()
 
-    new_df=pd.DataFrame(columns=['prefix', 'friendly_name', 'event_type_ids'])
+    new_df=pd.DataFrame(columns=['prefix', 'friendly_name', 'event_type_ids', 'description'])
 
     for index, row in df.iterrows():
         title = row['title']
@@ -64,30 +79,40 @@ def get_friendly(df):
                     parsed_row = new_df.loc[new_df['prefix'] == word].copy()
                     if parsed_row.empty:
                         parsed_row = row_setup(word, word, row['event_type_id'])
+                        parsed_row['description']=get_dis(row['urls'])
                     else:
                         parsed_row['event_type_ids'] = list_parse(parsed_row['event_type_ids'], row['event_type_id'])
+                        if parsed_row['description'].values == '':
+                            parsed_row.loc[parsed_row['prefix'] == word, 'description']= get_dis(row['urls'])
             if not_in_bank_flag:
                 pref = title
                 if title not in prefix_bank:
                     prefix_bank.append(title)
                     parsed_row = row_setup(pref, pref, row['event_type_id'])
+                    parsed_row['description'] = get_dis(row['urls'])
                 else:
                     parsed_row = new_df.loc[new_df['prefix'] == pref].copy()
                     parsed_row['event_type_ids'] = list_parse(parsed_row['event_type_ids'], row['event_type_id'])
+                    if parsed_row['description'].values == '':
+                        parsed_row.loc[parsed_row['prefix'] == parsed_row['prefix'], 'description']= get_dis(row['urls'])
         else:
             can_skip=False
             for word in title.split(' '):
                 if '(' in word:
                     w= word.replace('(', '').replace(')', '')
                     if w == 'Barrel':
-                        w= 'Oil'
+                        w= 'Crude Oil'
                     if w not in prefix_bank and can_skip == False:
                         prefix_bank.append(w)
                         parsed_row = row_setup(word.replace('(', '').replace(')', ''), word.replace('(', '').replace(')', ''), row['event_type_id'])
                         parsed_row['friendly_name']=friendly_update(parsed_row, title)
+                        parsed_row['description'] = get_dis(row['urls'])
                     else:
                         parsed_row=new_df.loc[new_df['prefix']==w].copy()
                         parsed_row['event_type_ids'] = list_parse(parsed_row['event_type_ids'], row['event_type_id'])
+                        if parsed_row['description'].values == '':
+                            parsed_row.loc[parsed_row['prefix'] == parsed_row['prefix'], 'description'] = get_dis(
+                                row['urls'])
                     can_skip = True
 
         new_df = new_df.append(parsed_row, ignore_index=True)
@@ -177,14 +202,17 @@ if __name__ == "__main__":
 
     #df= investing_scraper.get_events_year_range(2019,2020)
 
-    loader_fc = pd.read_csv("yearsTest2.csv")
-    print(loader_fc.size)
-    fc= pre_processing(loader_fc)
-    fc.to_csv('FullTitles.csv', index=False)
+    #loader_fc = pd.read_csv("yearsTest2.csv")
+    #print(loader_fc.size)
+    #fc= pre_processing(loader_fc)
+    #fc.to_csv('FullTitles.csv', index=False)
     fc=pd.read_csv("FullTitles.csv")
     print('# of rows in FC: {}'.format(len(fc.index)))
     fc=get_friendly(fc)
     print('# of rows in FC after getting friendly names: {}'.format(len(fc.index)))
-    fc.to_csv('tryingAll.csv', index=False)
 
+    fc['shortened_desc'] = fc.apply(shortened_desc, axis='columns')
+    fc.to_csv('tryingAll_withDesc.csv', index=False)
+    del fc['description']
+    fc.to_csv('tryingAll.csv', index=False)
     print('done!!')
