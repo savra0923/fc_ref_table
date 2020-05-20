@@ -41,7 +41,6 @@ def friendly_update(parsed_row, title):
     if title.count('(') > 1:
         title = title[title.find(')') + 2:]
     title = title[:title.find('(')]
-    print('title: {}'.format(title))
     words = title.split(' ')
     words = ' '.join(words[-(pref_len + 1):-1])
     return parsed_row['friendly_name'] + [words, words + ' (' + parsed_row['prefix'] + ')']
@@ -55,7 +54,6 @@ def get_friendly(df):
 
     for index, row in df.iterrows():
         title = row['title']
-        print(title)
         parsed_row = {}
 
         if '(' not in title:
@@ -81,9 +79,8 @@ def get_friendly(df):
             for word in title.split(' '):
                 if '(' in word:
                     w= word.replace('(', '').replace(')', '')
-                    print('word: {}'.format(w))
                     if w == 'Barrel':
-                        w= 'Crude Oil'
+                        w= 'Oil'
                     if w not in prefix_bank and can_skip == False:
                         prefix_bank.append(w)
                         parsed_row = row_setup(word.replace('(', '').replace(')', ''), word.replace('(', '').replace(')', ''), row['event_type_id'])
@@ -113,8 +110,8 @@ def get_title(row):
 
     info=''.join(info)
 
-    info=info.replace('\r','').replace('\n','').replace('\t','')
-    print(info)
+    info=info.replace('\r','').replace('\n','').replace('\t','').replace('Core', '')
+    #print(info)
 
     countires_list = pd.read_csv("countries.csv")
     countires_list = countires_list['country'].values.tolist()
@@ -123,13 +120,12 @@ def get_title(row):
     for word in l:
         if info.find(word) != -1:
             info= info[:info.find(word)-1]
-            print('title: {}'.format(info))
 
     for word in countires_list:
         if info.find(word) != -1:
             info = info[info.find(word) + len(word) + 1:]
 
-    print('title: {}'.format(info))
+    #print('title: {}'.format(info))
 
     print('{}'.format(row['time']))
     return info
@@ -168,11 +164,11 @@ def no_parantasis(row):
 
 def pre_processing(df):
     df= df[df.impact!='Holiday']
-    df= df[df.impact=='Low Volatility Expected']
+    #df= df[df.impact=='Low Volatility Expected']
     df= df.drop_duplicates(subset=['event_type_id'], keep='last')
     df['event_name'] = df.apply(no_parantasis, axis='columns')
     df['urls'] = df.apply(get_url_parts, axis='columns')
-    print(df.size)
+    print(len(df.index))
     df['title'] = df.apply(get_title, axis='columns')
     print('done pre_pocessing')
     return df
@@ -181,13 +177,14 @@ if __name__ == "__main__":
 
     #df= investing_scraper.get_events_year_range(2019,2020)
 
-    #loader_fc = pd.read_csv("yearsTest2.csv")
-    #print(loader_fc.size)
-    #fc= pre_processing(loader_fc)
-    #fc.to_csv('FullTitlesLow.csv', index=False)
-    fc=pd.read_csv("FullTitlesLow.csv")
-    print(fc.size)
+    loader_fc = pd.read_csv("yearsTest2.csv")
+    print(loader_fc.size)
+    fc= pre_processing(loader_fc)
+    fc.to_csv('FullTitles.csv', index=False)
+    fc=pd.read_csv("FullTitles.csv")
+    print('# of rows in FC: {}'.format(len(fc.index)))
     fc=get_friendly(fc)
-    fc.to_csv('tryingLow.csv', index=False)
+    print('# of rows in FC after getting friendly names: {}'.format(len(fc.index)))
+    fc.to_csv('tryingAll.csv', index=False)
 
     print('done!!')
