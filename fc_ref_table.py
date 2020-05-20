@@ -56,7 +56,7 @@ def get_friendly(df):
     prefix_bank = prefix_bank['prefixes'].values.tolist()
 
     new_df = pd.DataFrame(columns=['prefix', 'friendly_name', 'event_type_ids'])
-
+    #TODO: way to many else ifs, If you know its an issue you have to find a better solution
     for index, row in df.iterrows():
         title = row['title']
         parsed_row = {}
